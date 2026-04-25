@@ -1,4 +1,11 @@
 {
+  "Nav": {
+    "appName": "Sophium",
+    "sectionNav": "ナビゲーション",
+    "home": "ホーム",
+    "chat": "チャット",
+    "language": "言語"
+  },
   "Meta": {
     "title": "Sophium",
     "description": "SEP 根拠の哲学マルチエージェントチャット"
@@ -13,6 +20,10 @@
   },
   "Chat": {
     "blurb": "Stanford Encyclopedia of Philosophy（SEP）の条項だけを根拠に、多段の Gemini エージェントが回答を組み立てます（取得 → 回答 → レビュー → 最終整形）。ヒューリスティックに絞った候補から、主に参照する人物条項を選べます（任意）。",
+    "blurbShort": "SEP 根拠の回答。上の一覧から主に参照する哲学者を選べます（任意）。",
+    "messageYou": "あなた",
+    "messageAssistant": "アシスタント",
+    "placeholderComposer": "メッセージを書く…",
     "loading": "処理中: SEP から条項を取得し、回答・レビュー・最終整形を行っています（数十秒かかることがあります）…",
     "citationsLabel": "SEP 参照",
     "reviewWarning": "自動レビューは完全には通過しませんでした。回答は慎重に扱ってください。",

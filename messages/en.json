@@ -1,4 +1,11 @@
 {
+  "Nav": {
+    "appName": "Sophium",
+    "sectionNav": "Navigation",
+    "home": "Home",
+    "chat": "Chat",
+    "language": "Language"
+  },
   "Meta": {
     "title": "Sophium",
     "description": "Multi-agent philosophy chat grounded in the SEP"
@@ -13,6 +20,10 @@
   },
   "Chat": {
     "blurb": "Using only Stanford Encyclopedia of Philosophy (SEP) entries, multi-step Gemini agents assemble an answer (fetch → answer → review → final). From heuristic-filtered candidates you may optionally select the primary person entry the pipeline should lean on.",
+    "blurbShort": "SEP-grounded answers. Optionally pick a primary philosopher above.",
+    "messageYou": "You",
+    "messageAssistant": "Assistant",
+    "placeholderComposer": "Write your message…",
     "loading": "Processing: fetching SEP entries, then answer, review, and final pass (this can take dozens of seconds)…",
     "citationsLabel": "SEP references",
     "reviewWarning": "The automatic review did not fully pass. Treat the answer with care.",

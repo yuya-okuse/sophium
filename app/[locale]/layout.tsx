@@ -4,6 +4,7 @@ import { hasLocale } from "next-intl"
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server"
 import { NextIntlClientProvider } from "next-intl"
 
+import { AppShell } from "@/components/app-shell"
 import { routing } from "@/i18n/routing"
 
 type Props = {
@@ -39,7 +40,7 @@ export default async function LocaleLayout({ children, params }: Props) {
 
   return (
     <NextIntlClientProvider messages={messages} locale={locale}>
-      {children}
+      <AppShell>{children}</AppShell>
     </NextIntlClientProvider>
   )
 }
