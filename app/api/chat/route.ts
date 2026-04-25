@@ -1,6 +1,8 @@
 import { GoogleGenAI } from "@google/genai"
 import { NextResponse } from "next/server"
 
+import { isAnswerMode } from "@/lib/answerMode"
+import { parseChatHistoryField } from "@/lib/chatHistory"
 import { runPhilosophyPipeline } from "@/lib/philosophy-pipeline"
 import { parseChatLocale } from "@/lib/locale"
 import { SlugNotInIndexError } from "@/lib/sep/philosophyRequestErrors"
@@ -37,6 +39,8 @@ export async function POST(request: Request) {
     message: string
     philosopherSlug?: unknown
     locale?: unknown
+    answerMode?: unknown
+    history?: unknown
   }
   const message = b.message.trim()
   if (!message) {
@@ -65,9 +69,28 @@ export async function POST(request: Request) {
       { status: 400 }
     )
   }
+  if (
+    "answerMode" in b &&
+    b.answerMode !== null &&
+    b.answerMode !== undefined &&
+    !isAnswerMode(b.answerMode)
+  ) {
+    return NextResponse.json(
+      { error: "If present, \"answerMode\" must be \"easy\" or \"hard\"." },
+      { status: 400 }
+    )
+  }
   const philosopherSlug = (
     typeof b.philosopherSlug === "string" ? b.philosopherSlug : ""
   ).trim()
+  const answerMode = isAnswerMode(b.answerMode) ? b.answerMode : undefined
+  const historyParsed = parseChatHistoryField(
+    "history" in b ? b.history : undefined
+  )
+  if (!historyParsed.ok) {
+    return NextResponse.json({ error: historyParsed.error }, { status: 400 })
+  }
+  const historyForPipeline = historyParsed.history
   const acceptLanguage = request.headers.get("accept-language")
   const locale = parseChatLocale(
     b.locale,
@@ -81,6 +104,8 @@ export async function POST(request: Request) {
     const result = await runPhilosophyPipeline(ai, model, message, {
       philosopherSlug: philosopherSlug || undefined,
       locale,
+      answerMode,
+      history: historyForPipeline,
     })
 
     return NextResponse.json({

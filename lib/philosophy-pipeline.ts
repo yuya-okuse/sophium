@@ -8,6 +8,14 @@ import type { EvidencePack, PipelineResult } from "@/lib/agents/types"
 import { getContentsHtml } from "@/lib/sep/contents"
 import { SlugNotInIndexError } from "@/lib/sep/philosophyRequestErrors"
 import { parseContentsHtml } from "@/lib/sep/parseContents"
+import type { AnswerMode } from "@/lib/answerMode"
+import { DEFAULT_ANSWER_MODE } from "@/lib/answerMode"
+import {
+  type ChatHistoryTurn,
+  buildRetrievalQueryWithDefaults,
+  formatTranscriptForPrompt,
+  trimChatHistory,
+} from "@/lib/chatHistory"
 import type { ChatLocale } from "@/lib/locale"
 
 function formatReviewFeedback(r: {
@@ -38,6 +46,10 @@ export type RunPhilosophyPipelineOptions = {
   philosopherSlug?: string
   /** Response language for answer, review, and final parent step. */
   locale?: ChatLocale
+  /** easy: plainer scaffolding for non-specialists; hard: denser philosophical voice. Omitted defaults to hard. */
+  answerMode?: AnswerMode
+  /** Prior turns only (not including the current `userQuestion`). */
+  history?: ChatHistoryTurn[]
 }
 
 /**
@@ -50,6 +62,10 @@ export async function runPhilosophyPipeline(
   options?: RunPhilosophyPipelineOptions
 ): Promise<PipelineResult> {
   const locale: ChatLocale = options?.locale ?? "ja"
+  const answerMode: AnswerMode = options?.answerMode ?? DEFAULT_ANSWER_MODE
+  const history = trimChatHistory(options?.history ?? [])
+  const priorTranscript = formatTranscriptForPrompt(history)
+  const retrievalQuery = buildRetrievalQueryWithDefaults(history, userQuestion)
   const html = await getContentsHtml()
   const allEntries = parseContentsHtml(html)
   if (allEntries.length === 0) {
@@ -67,7 +83,7 @@ export async function runPhilosophyPipeline(
   const pack = await buildEvidencePack(
     ai,
     model,
-    userQuestion,
+    retrievalQuery,
     allEntries,
     forced ? { forcedSlugs: [forced] } : undefined
   )
@@ -81,10 +97,11 @@ export async function runPhilosophyPipeline(
     userQuestion,
     pack,
     undefined,
-    { primarySlugs, locale }
+    { primarySlugs, locale, answerMode, priorConversationTranscript: priorTranscript }
   )
   let review = await runReviewAgent(ai, model, userQuestion, pack, draft, {
     locale,
+    priorConversationTranscript: priorTranscript,
   })
   let usedRetry = false
 
@@ -97,10 +114,11 @@ export async function runPhilosophyPipeline(
       userQuestion,
       pack,
       feedback,
-      { primarySlugs, locale }
+      { primarySlugs, locale, answerMode, priorConversationTranscript: priorTranscript }
     )
     review = await runReviewAgent(ai, model, userQuestion, pack, draft, {
       locale,
+      priorConversationTranscript: priorTranscript,
     })
   }
 
@@ -111,7 +129,7 @@ export async function runPhilosophyPipeline(
       userQuestion,
       pack,
       draft,
-      { locale }
+      { locale, answerMode, priorConversationTranscript: priorTranscript }
     )
     return {
       reply,
@@ -128,7 +146,7 @@ export async function runPhilosophyPipeline(
     pack,
     draft,
     review,
-    { locale }
+    { locale, answerMode, priorConversationTranscript: priorTranscript }
   )
   return {
     reply,

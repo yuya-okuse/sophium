@@ -21,3 +21,23 @@ export function getSepMaxSlugs(): number {
 export function getSepEntryMaxChars(): number {
   return intEnv("SEP_ENTRY_MAX_CHARS", 32_000)
 }
+
+/** Max prior turns (user+assistant pairs count as 2) sent to the model / retriever. */
+export function getChatHistoryMaxTurns(): number {
+  return intEnv("CHAT_HISTORY_MAX_TURNS", 40)
+}
+
+/** Max array length for request body history (reject above this). */
+export function getChatHistoryMaxItems(): number {
+  return intEnv("CHAT_HISTORY_MAX_ITEMS", 100)
+}
+
+/** Max characters for PRIOR_CONVERSATION transcript (older text dropped first). */
+export function getChatHistoryMaxChars(): number {
+  return intEnv("CHAT_HISTORY_MAX_CHARS", 24_000)
+}
+
+/** Max characters for SEP retrieval query (suffix keeps latest user message). */
+export function getChatRetrievalQueryMaxChars(): number {
+  return intEnv("CHAT_RETRIEVAL_QUERY_MAX_CHARS", 8000)
+}

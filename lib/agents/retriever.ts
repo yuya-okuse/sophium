@@ -44,11 +44,12 @@ function indexBySlug(
 
 /**
  * 1) Optional forced slugs, 2) shortlist + Gemini for remaining slots, 3) fetch entry text.
+ * @param retrievalQuery Text used for shortlisting and slug selection (may include prior turns + latest user message).
  */
 export async function buildEvidencePack(
   ai: GoogleGenAI,
   model: string,
-  userQuestion: string,
+  retrievalQuery: string,
   allEntries: SepIndexEntry[],
   options?: BuildEvidencePackOptions
 ): Promise<EvidencePack> {
@@ -78,7 +79,7 @@ export async function buildEvidencePack(
 
   if (remainingSlots > 0) {
     let shortlist = shortlistEntries(
-      userQuestion,
+      retrievalQuery,
       allEntries,
       candidateN
     ).filter((e) => !forcedCapped.includes(e.slug))
@@ -101,7 +102,7 @@ Rules:
 - Prefer a small, focused set.
 - Output must follow the JSON schema exactly.`,
         user: `USER_QUESTION:
-${userQuestion}
+${retrievalQuery}
 
 CANDIDATE_LINES (format: slug — title):
 ${shortlistText}

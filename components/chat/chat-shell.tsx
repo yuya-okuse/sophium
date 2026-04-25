@@ -19,7 +19,9 @@ import {
 import { useLocale, useTranslations } from "next-intl"
 import { useCallback, useEffect, useRef, useState } from "react"
 
+import { PhilosopherCombobox } from "@/components/chat/philosopher-combobox"
 import { Button } from "@/components/ui/button"
+import type { AnswerMode } from "@/lib/answerMode"
 import type { SepPhilosophersFile } from "@/lib/sep/philosophersList"
 import sepPhilosophersList from "@/data/sep-philosophers.json"
 type ChatRole = "user" | "assistant"
@@ -40,16 +42,6 @@ type ChatTurn = {
 
 const sepPhilosophers = sepPhilosophersList as SepPhilosophersFile
 
-function displayPhilosopherTitle(
-  item: SepPhilosophersFile["items"][number],
-  locale: string
-) {
-  if (locale === "ja" && item.titleJa) {
-    return item.titleJa
-  }
-  return item.title
-}
-
 function useChatLocaleBcp47(locale: string): string {
   if (locale === "ja") return "ja-JP"
   return "en-GB"
@@ -69,6 +61,7 @@ export function ChatShell() {
   const bcp = useChatLocaleBcp47(locale)
   const [input, setInput] = useState("")
   const [philosopherSlug, setPhilosopherSlug] = useState("")
+  const [answerMode, setAnswerMode] = useState<AnswerMode>("hard")
   const [messages, setMessages] = useState<ChatTurn[]>([])
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
@@ -99,6 +92,8 @@ export function ChatShell() {
       const trimmed = raw.trim()
       if (!trimmed) return
 
+      const priorHistory = messages.map(({ role, content }) => ({ role, content }))
+
       setError(null)
       setInput("")
       const userAt = Date.now()
@@ -116,9 +111,15 @@ export function ChatShell() {
           message: string
           philosopherSlug?: string
           locale: string
+          answerMode: AnswerMode
+          history?: { role: ChatRole; content: string }[]
         } = {
           message: trimmed,
           locale,
+          answerMode,
+        }
+        if (priorHistory.length > 0) {
+          body.history = priorHistory
         }
         if (philosopherSlug.trim()) {
           body.philosopherSlug = philosopherSlug.trim()
@@ -191,7 +192,7 @@ export function ChatShell() {
         setLoading(false)
       }
     },
-    [locale, philosopherSlug, t]
+    [answerMode, locale, messages, philosopherSlug, t]
   )
 
   const stopRequest = useCallback(() => {
@@ -215,11 +216,6 @@ export function ChatShell() {
         <p className="text-center text-xs text-muted-foreground">
           {todayLabel}
         </p>
-        {messages.length === 0 && !loading && (
-          <p className="mx-auto mt-3 max-w-full px-2 text-center text-sm leading-relaxed text-muted-foreground">
-            {t("blurbShort")}
-          </p>
-        )}
 
         <div className="mt-4 space-y-4">
           {messages.map((m, i) =>
@@ -305,28 +301,62 @@ export function ChatShell() {
       )}
 
       <div className="shrink-0 space-y-2 border-t border-border px-3 py-3">
+        <PhilosopherCombobox
+          items={sepPhilosophers.items}
+          locale={locale}
+          value={philosopherSlug}
+          onChange={setPhilosopherSlug}
+          disabled={loading}
+          labels={{
+            label: t("philosopherLabel", { count: sepPhilosophers.items.length }),
+            none: t("philosopherNone"),
+            searchPlaceholder: t("philosopherSearchPlaceholder"),
+            empty: t("philosopherPickerNoMatch"),
+          }}
+        />
+
         <div className="space-y-1">
-          <label
-            htmlFor="philosopher-select"
+          <span
+            id="answer-mode-label"
             className="block text-left text-xs text-muted-foreground"
           >
-            {t("philosopherLabel", { count: sepPhilosophers.items.length })}
-          </label>
-          <select
-            id="philosopher-select"
-            className="h-9 w-full rounded-lg border border-border bg-background px-2.5 text-sm text-foreground"
-            value={philosopherSlug}
-            onChange={(e) => setPhilosopherSlug(e.target.value)}
-            disabled={loading}
-            aria-label={t("philosopherSelectAria")}
+            {t("answerModeLabel")}
+          </span>
+          <div
+            role="group"
+            aria-labelledby="answer-mode-label"
+            className="flex rounded-lg border border-border bg-background p-0.5"
           >
-            <option value="">{t("philosopherNone")}</option>
-            {sepPhilosophers.items.map((e) => (
-              <option key={e.slug} value={e.slug}>
-                {displayPhilosopherTitle(e, locale)}
-              </option>
-            ))}
-          </select>
+            <button
+              type="button"
+              disabled={loading}
+              aria-pressed={answerMode === "easy"}
+              className={`min-h-9 flex-1 rounded-md px-2 text-center text-xs font-medium transition-colors ${
+                answerMode === "easy"
+                  ? "bg-foreground text-background"
+                  : "text-muted-foreground hover:text-foreground"
+              }`}
+              onClick={() => setAnswerMode("easy")}
+            >
+              {t("answerModeEasy")}
+            </button>
+            <button
+              type="button"
+              disabled={loading}
+              aria-pressed={answerMode === "hard"}
+              className={`min-h-9 flex-1 rounded-md px-2 text-center text-xs font-medium transition-colors ${
+                answerMode === "hard"
+                  ? "bg-foreground text-background"
+                  : "text-muted-foreground hover:text-foreground"
+              }`}
+              onClick={() => setAnswerMode("hard")}
+            >
+              {t("answerModeHard")}
+            </button>
+          </div>
+          <p className="px-0.5 text-xs text-muted-foreground leading-snug">
+            {t("answerModeHint")}
+          </p>
         </div>
 
         <p className="px-1 text-xs text-muted-foreground">
