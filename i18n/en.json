@@ -8,7 +8,7 @@
   },
   "Meta": {
     "title": "Sophium",
-    "description": "Multi-agent philosophy chat grounded in the SEP"
+    "description": "Multi-agent philosophy chat"
   },
   "Home": {
     "title": "To get started, edit the page.tsx file.",
@@ -19,20 +19,21 @@
     "vercelMarkAlt": "Vercel logomark"
   },
   "Chat": {
-    "blurb": "Using only Stanford Encyclopedia of Philosophy (SEP) entries, multi-step Gemini agents assemble an answer (fetch → answer → review → final). From heuristic-filtered candidates you may optionally select the primary person entry the pipeline should lean on.",
-    "blurbShort": "SEP-grounded answers. Optionally pick a primary philosopher above.",
+    "blurb": "Multi-step agents assemble an answer from indexed reference entries (fetch → answer → review → final). You may optionally select the primary person the pipeline should lean on from filtered candidates.",
+    "blurbShort": "Grounded answers. Optionally pick a primary philosopher above.",
     "messageYou": "You",
     "messageAssistant": "Assistant",
     "placeholderComposer": "Write your message…",
-    "loading": "Processing: fetching SEP entries, then answer, review, and final pass (this can take dozens of seconds)…",
-    "citationsLabel": "SEP references",
+    "loading": "Processing: fetching reference entries, then answer, review, and final pass (this can take dozens of seconds)…",
     "reviewWarning": "The automatic review did not fully pass. Treat the answer with care.",
     "philosopherLabel": "Primary philosopher (candidates: {count}, optional)",
     "philosopherNone": "None",
-    "philosopherSelectAria": "Primary philosopher entry from SEP (optional)",
+    "philosopherSelectAria": "Primary philosopher to lean on (optional)",
     "composerLabel": "Message",
-    "placeholder": "Ask about philosophers’ views, definitions, or topics covered in the SEP…",
+    "placeholder": "Ask about philosophers’ views, definitions, or philosophical topics…",
     "send": "Send message",
+    "stop": "Stop",
+    "sendShortcutHint": "⌘+Enter or Ctrl+Enter to send. Enter for a new line.",
     "errorGeneric": "Request failed ({status}).",
     "errorNetwork": "Network error. Try again.",
     "switchToEn": "English",

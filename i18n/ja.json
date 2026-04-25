@@ -8,7 +8,7 @@
   },
   "Meta": {
     "title": "Sophium",
-    "description": "SEP 根拠の哲学マルチエージェントチャット"
+    "description": "哲学マルチエージェントチャット"
   },
   "Home": {
     "title": "作業を始めるには、page.tsx を編集します。",
@@ -19,20 +19,21 @@
     "vercelMarkAlt": "Vercel ロゴ"
   },
   "Chat": {
-    "blurb": "Stanford Encyclopedia of Philosophy（SEP）の条項だけを根拠に、多段の Gemini エージェントが回答を組み立てます（取得 → 回答 → レビュー → 最終整形）。ヒューリスティックに絞った候補から、主に参照する人物条項を選べます（任意）。",
-    "blurbShort": "SEP 根拠の回答。上の一覧から主に参照する哲学者を選べます（任意）。",
+    "blurb": "索引された参照条項を根拠に、多段のエージェントが回答を組み立てます（取得 → 回答 → レビュー → 最終整形）。候補から、主に参照する人物を選べます（任意）。",
+    "blurbShort": "根拠に沿った回答です。上の一覧から主に参照する哲学者を選べます（任意）。",
     "messageYou": "あなた",
     "messageAssistant": "アシスタント",
     "placeholderComposer": "メッセージを書く…",
-    "loading": "処理中: SEP から条項を取得し、回答・レビュー・最終整形を行っています（数十秒かかることがあります）…",
-    "citationsLabel": "SEP 参照",
+    "loading": "処理中: 参照条項を取得し、回答・レビュー・最終整形を行っています（数十秒かかることがあります）…",
     "reviewWarning": "自動レビューは完全には通過しませんでした。回答は慎重に扱ってください。",
     "philosopherLabel": "主に参照する哲学者（候補 {count} 件、任意）",
     "philosopherNone": "（指定なし）",
-    "philosopherSelectAria": "主に参照する人物（SEP 条項、任意）",
+    "philosopherSelectAria": "主に参照する人物（任意）",
     "composerLabel": "メッセージ",
-    "placeholder": "哲学者の立場の違い、概念の定義、SEP に載っている論点について質問…",
+    "placeholder": "哲学者の立場の違い、概念の定義、論点について質問…",
     "send": "メッセージを送信",
+    "stop": "停止",
+    "sendShortcutHint": "⌘+Enter（Windows は Ctrl+Enter）で送信。Enter で改行。",
     "errorGeneric": "リクエストに失敗しました（{status}）。",
     "errorNetwork": "通信エラーです。もう一度お試しください。",
     "switchToEn": "English",

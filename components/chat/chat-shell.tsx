@@ -10,6 +10,7 @@ import {
   PaperPlaneTilt,
   Smiley,
   Sparkle,
+  Stop,
   TextB,
   TextItalic,
   TextStrikethrough,
@@ -72,6 +73,7 @@ export function ChatShell() {
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
   const endRef = useRef<HTMLDivElement>(null)
+  const abortRef = useRef<AbortController | null>(null)
 
   const todayLabel = new Date().toLocaleDateString(bcp, {
     day: "numeric",
@@ -106,6 +108,9 @@ export function ChatShell() {
       ])
       setLoading(true)
 
+      const ac = new AbortController()
+      abortRef.current = ac
+
       try {
         const body: {
           message: string
@@ -122,6 +127,7 @@ export function ChatShell() {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(body),
+          signal: ac.signal,
         })
 
         const data: unknown = await res.json().catch(() => null)
@@ -174,17 +180,26 @@ export function ChatShell() {
             reviewVerdict,
           },
         ])
-      } catch {
+      } catch (err) {
+        const aborted =
+          (err instanceof DOMException && err.name === "AbortError") ||
+          (err instanceof Error && err.name === "AbortError")
+        if (aborted) return
         setError(t("errorNetwork"))
       } finally {
+        if (abortRef.current === ac) abortRef.current = null
         setLoading(false)
       }
     },
     [locale, philosopherSlug, t]
   )
 
+  const stopRequest = useCallback(() => {
+    abortRef.current?.abort()
+  }, [])
+
   const onKeyDown = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
-    if (e.key === "Enter" && !e.shiftKey) {
+    if (e.key === "Enter" && (e.metaKey || e.ctrlKey)) {
       e.preventDefault()
       if (!loading) void sendMessage(e.currentTarget.value)
     }
@@ -201,7 +216,7 @@ export function ChatShell() {
           {todayLabel}
         </p>
         {messages.length === 0 && !loading && (
-          <p className="mx-auto mt-3 max-w-md text-center text-sm leading-relaxed text-muted-foreground">
+          <p className="mx-auto mt-3 max-w-full px-2 text-center text-sm leading-relaxed text-muted-foreground">
             {t("blurbShort")}
           </p>
         )}
@@ -221,15 +236,17 @@ export function ChatShell() {
                     {formatTime(m.at)}
                   </span>
                 </div>
-                <div className="flex max-w-[min(100%,24rem)] flex-row-reverse items-end gap-2">
+                <div className="flex w-full min-w-0 flex-row-reverse items-end gap-2">
                   <div
                     className="flex size-9 shrink-0 items-center justify-center rounded-full bg-gradient-to-br from-orange-500 to-red-500 text-xs font-semibold text-white shadow-sm"
                     title={t("messageYou")}
                   >
                     U
                   </div>
-                  <div className="whitespace-pre-wrap rounded-2xl bg-gradient-to-br from-orange-500 to-red-600 px-3.5 py-2.5 text-sm text-white shadow-sm">
-                    {m.content}
+                  <div className="min-w-0 flex-1 flex justify-end">
+                    <div className="max-w-full whitespace-pre-wrap rounded-2xl bg-gradient-to-br from-orange-500 to-red-600 px-3.5 py-2.5 text-sm text-white shadow-sm">
+                      {m.content}
+                    </div>
                   </div>
                 </div>
               </div>
@@ -246,7 +263,7 @@ export function ChatShell() {
                     {formatTime(m.at)}
                   </span>
                 </div>
-                <div className="flex max-w-[min(100%,24rem)] items-end gap-2">
+                <div className="flex w-full min-w-0 items-end gap-2">
                   <div
                     className="flex size-9 shrink-0 items-center justify-center rounded-full bg-zinc-300 text-xs font-semibold text-zinc-800 shadow-sm dark:bg-zinc-600 dark:text-zinc-100"
                     title={t("messageAssistant")}
@@ -254,34 +271,13 @@ export function ChatShell() {
                     A
                   </div>
                   <div
-                    className="space-y-2 rounded-2xl border border-zinc-200/90 bg-zinc-200/90 px-3.5 py-2.5 text-sm text-foreground shadow-sm dark:border-zinc-700/90 dark:bg-zinc-800/90"
+                    className="min-w-0 flex-1 space-y-2 rounded-2xl border border-zinc-200/90 bg-zinc-200/90 px-3.5 py-2.5 text-sm text-foreground shadow-sm dark:border-zinc-700/90 dark:bg-zinc-800/90"
                   >
                     <div className="whitespace-pre-wrap">{m.content}</div>
-                    {m.citations && m.citations.length > 0 && (
-                      <div className="border-t border-zinc-300/80 pt-2 text-xs text-muted-foreground dark:border-zinc-600/80">
-                        <p className="mb-1 font-medium text-foreground/80">
-                          {t("citationsLabel")}
-                        </p>
-                        <ul className="list-inside list-disc space-y-0.5">
-                          {m.citations.map((c) => (
-                            <li key={c.url}>
-                              <a
-                                href={c.url}
-                                target="_blank"
-                                rel="noreferrer"
-                                className="underline-offset-2 hover:underline"
-                              >
-                                {c.title}
-                              </a>
-                            </li>
-                          ))}
-                        </ul>
-                        {m.reviewVerdict === "fail" && (
-                          <p className="mt-2 text-amber-700 dark:text-amber-400">
-                            {t("reviewWarning")}
-                          </p>
-                        )}
-                      </div>
+                    {m.reviewVerdict === "fail" && (
+                      <p className="mt-2 border-t border-zinc-300/80 pt-2 text-xs text-amber-700 dark:border-zinc-600/80 dark:text-amber-400">
+                        {t("reviewWarning")}
+                      </p>
                     )}
                   </div>
                 </div>
@@ -333,6 +329,9 @@ export function ChatShell() {
           </select>
         </div>
 
+        <p className="px-1 text-xs text-muted-foreground">
+          {t("sendShortcutHint")}
+        </p>
         <div className="overflow-hidden rounded-2xl border border-border/70 bg-card shadow-lg">
           <div className="flex items-start gap-2 border-b border-border/60 px-3 pt-2.5">
             <button
@@ -403,17 +402,30 @@ export function ChatShell() {
                 <ImageIcon className="size-4" />
               </FakeToolbarIcon>
             </div>
-            <Button
-              type="button"
-              aria-label={t("send")}
-              className="size-10 shrink-0 rounded-full bg-gradient-to-br from-orange-500 to-red-500 text-white shadow-md hover:from-orange-600 hover:to-red-600"
-              onClick={() => {
-                if (!loading) void sendMessage(input)
-              }}
-              disabled={loading || !input.trim()}
-            >
-              <PaperPlaneTilt className="size-5" weight="bold" />
-            </Button>
+            <div className="flex shrink-0 items-center gap-1.5">
+              {loading ? (
+                <Button
+                  type="button"
+                  variant="outline"
+                  aria-label={t("stop")}
+                  className="size-10 rounded-full border-destructive/50 text-destructive hover:bg-destructive/10 hover:text-destructive"
+                  onClick={stopRequest}
+                >
+                  <Stop className="size-5" weight="bold" />
+                </Button>
+              ) : null}
+              <Button
+                type="button"
+                aria-label={t("send")}
+                className="size-10 shrink-0 rounded-full bg-gradient-to-br from-orange-500 to-red-500 text-white shadow-md hover:from-orange-600 hover:to-red-600"
+                onClick={() => {
+                  if (!loading) void sendMessage(input)
+                }}
+                disabled={loading || !input.trim()}
+              >
+                <PaperPlaneTilt className="size-5" weight="bold" />
+              </Button>
+            </div>
           </div>
         </div>
       </div>
