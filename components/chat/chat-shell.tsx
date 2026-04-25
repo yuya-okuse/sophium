@@ -12,9 +12,17 @@ import {
 
 type ChatRole = "user" | "assistant"
 
+type Citation = {
+  title: string
+  url: string
+  slug: string
+}
+
 type ChatTurn = {
   role: ChatRole
-  content: string;
+  content: string
+  citations?: Citation[]
+  reviewVerdict?: "pass" | "fail" | "skipped"
 }
 
 export function ChatShell() {
@@ -61,7 +69,33 @@ export function ChatShell() {
         return
       }
 
-      setMessages((prev) => [...prev, { role: "assistant", content: reply }])
+      const citations =
+        data &&
+        typeof data === "object" &&
+        "citations" in data &&
+        Array.isArray((data as { citations: unknown }).citations)
+          ? ((data as { citations: Citation[] }).citations)
+          : undefined
+
+      const reviewVerdict =
+        data &&
+        typeof data === "object" &&
+        "reviewVerdict" in data &&
+        typeof (data as { reviewVerdict: unknown }).reviewVerdict ===
+          "string"
+          ? (data as { reviewVerdict: "pass" | "fail" | "skipped" })
+              .reviewVerdict
+          : undefined
+
+      setMessages((prev) => [
+        ...prev,
+        {
+          role: "assistant",
+          content: reply,
+          citations,
+          reviewVerdict,
+        },
+      ])
     } catch {
       setError("Network error. Try again.")
     } finally {
@@ -87,8 +121,8 @@ export function ChatShell() {
       </div>
 
       <p className="max-w-md text-center text-base leading-relaxed text-foreground">
-        Neo AI’s legacy few ideas to round out your dashboard with a third card.
-        Each follows the main.
+        Stanford Encyclopedia of Philosophy（SEP）の条項だけを根拠に、多段の Gemini
+        エージェントが回答を組み立てます（取得 → 回答 → レビュー → 最終整形）。
       </p>
 
       {messages.length > 0 && (
@@ -97,16 +131,49 @@ export function ChatShell() {
           role="log"
           aria-live="polite"
         >
+          {loading && (
+            <p
+              className="text-sm text-muted-foreground"
+              aria-live="assertive"
+            >
+              処理中: SEP
+              から条項を取得し、回答・レビュー・最終整形を行っています（数十秒かかることがあります）…
+            </p>
+          )}
           {messages.map((m, i) => (
             <div
               key={`${i}-${m.role}`}
               className={
                 m.role === "user"
                   ? "ml-8 rounded-xl bg-muted/80 px-3 py-2 text-sm text-foreground"
-                  : "mr-8 rounded-xl border border-border bg-background px-3 py-2 text-sm text-foreground whitespace-pre-wrap"
+                  : "mr-8 space-y-2 rounded-xl border border-border bg-background px-3 py-2 text-sm text-foreground"
               }
             >
-              {m.content}
+              <div className="whitespace-pre-wrap">{m.content}</div>
+              {m.role === "assistant" && m.citations && m.citations.length > 0 && (
+                <div className="border-t border-border pt-2 text-xs text-muted-foreground">
+                  <p className="mb-1 font-medium text-foreground/80">SEP 参照</p>
+                  <ul className="list-inside list-disc space-y-0.5">
+                    {m.citations.map((c) => (
+                      <li key={c.url}>
+                        <a
+                          href={c.url}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="underline-offset-2 hover:underline"
+                        >
+                          {c.title}
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                  {m.reviewVerdict === "fail" && (
+                    <p className="mt-2 text-amber-600 dark:text-amber-500">
+                      自動レビューは完全には通過しませんでした。回答は慎重に扱ってください。
+                    </p>
+                  )}
+                </div>
+              )}
             </div>
           ))}
         </div>
@@ -128,7 +195,7 @@ export function ChatShell() {
         <InputGroup className="h-auto min-h-12 overflow-hidden rounded-2xl border-border bg-card py-1.5 pr-1.5 shadow-md has-[[data-slot=input-group-control]:focus-visible]:ring-offset-0">
           <InputGroupInput
             id="chat-composer"
-            placeholder="pixelate a few ideas to round out your dashboard…"
+            placeholder="哲学者の立場の違い、概念の定義、SEP に載っている論点について質問…"
             autoComplete="off"
             className="h-auto min-h-10 rounded-l-2xl px-4 py-2.5"
             value={input}

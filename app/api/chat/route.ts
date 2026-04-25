@@ -1,6 +1,8 @@
 import { GoogleGenAI } from "@google/genai"
 import { NextResponse } from "next/server"
 
+import { runPhilosophyPipeline } from "@/lib/philosophy-pipeline"
+
 export async function POST(request: Request) {
   const apiKey = process.env.GEMINI_API_KEY
   if (!apiKey) {
@@ -38,23 +40,17 @@ export async function POST(request: Request) {
 
   try {
     const ai = new GoogleGenAI({ apiKey })
-    const response = await ai.models.generateContent({
-      model,
-      contents: message,
+    const result = await runPhilosophyPipeline(ai, model, message)
+
+    return NextResponse.json({
+      reply: result.reply,
+      citations: result.citations,
+      reviewVerdict: result.reviewVerdict,
+      usedRetry: result.usedRetry,
     })
-
-    const text = response.text?.trim()
-    if (!text) {
-      return NextResponse.json(
-        { error: "The model returned no text." },
-        { status: 502 }
-      )
-    }
-
-    return NextResponse.json({ reply: text })
   } catch (err) {
     const messageText =
-      err instanceof Error ? err.message : "Unexpected error calling Gemini."
+      err instanceof Error ? err.message : "Unexpected error running the pipeline."
     return NextResponse.json({ error: messageText }, { status: 502 })
   }
 }
