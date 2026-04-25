@@ -1,0 +1,30 @@
+{
+  "Meta": {
+    "title": "Sophium",
+    "description": "SEP 根拠の哲学マルチエージェントチャット"
+  },
+  "Home": {
+    "title": "作業を始めるには、page.tsx を編集します。",
+    "altNextLogo": "Next.js のロゴ",
+    "intro": "チャットUIの<chat>デモ</chat>をお試しください。Getting started や手順のヒントをお探しなら、<templates>テンプレート</templates> または <learn>学習</learn> コーナーへ。",
+    "deploy": "Vercel にデプロイ",
+    "docs": "ドキュメント",
+    "vercelMarkAlt": "Vercel ロゴ"
+  },
+  "Chat": {
+    "blurb": "Stanford Encyclopedia of Philosophy（SEP）の条項だけを根拠に、多段の Gemini エージェントが回答を組み立てます（取得 → 回答 → レビュー → 最終整形）。ヒューリスティックに絞った候補から、主に参照する人物条項を選べます（任意）。",
+    "loading": "処理中: SEP から条項を取得し、回答・レビュー・最終整形を行っています（数十秒かかることがあります）…",
+    "citationsLabel": "SEP 参照",
+    "reviewWarning": "自動レビューは完全には通過しませんでした。回答は慎重に扱ってください。",
+    "philosopherLabel": "主に参照する哲学者（候補 {count} 件、任意）",
+    "philosopherNone": "（指定なし）",
+    "philosopherSelectAria": "主に参照する人物（SEP 条項、任意）",
+    "composerLabel": "メッセージ",
+    "placeholder": "哲学者の立場の違い、概念の定義、SEP に載っている論点について質問…",
+    "send": "メッセージを送信",
+    "errorGeneric": "リクエストに失敗しました（{status}）。",
+    "errorNetwork": "通信エラーです。もう一度お試しください。",
+    "switchToEn": "English",
+    "switchToJa": "日本語"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "Meta": {
+    "title": "Sophium",
+    "description": "Multi-agent philosophy chat grounded in the SEP"
+  },
+  "Home": {
+    "title": "To get started, edit the page.tsx file.",
+    "altNextLogo": "Next.js logo",
+    "intro": "Try the <chat>chat UI demo</chat>. Looking for a starting point or more instructions? Head over to <templates>Templates</templates> or the <learn>Learning</learn> center.",
+    "deploy": "Deploy Now",
+    "docs": "Documentation",
+    "vercelMarkAlt": "Vercel logomark"
+  },
+  "Chat": {
+    "blurb": "Using only Stanford Encyclopedia of Philosophy (SEP) entries, multi-step Gemini agents assemble an answer (fetch → answer → review → final). From heuristic-filtered candidates you may optionally select the primary person entry the pipeline should lean on.",
+    "loading": "Processing: fetching SEP entries, then answer, review, and final pass (this can take dozens of seconds)…",
+    "citationsLabel": "SEP references",
+    "reviewWarning": "The automatic review did not fully pass. Treat the answer with care.",
+    "philosopherLabel": "Primary philosopher (candidates: {count}, optional)",
+    "philosopherNone": "None",
+    "philosopherSelectAria": "Primary philosopher entry from SEP (optional)",
+    "composerLabel": "Message",
+    "placeholder": "Ask about philosophers’ views, definitions, or topics covered in the SEP…",
+    "send": "Send message",
+    "errorGeneric": "Request failed ({status}).",
+    "errorNetwork": "Network error. Try again.",
+    "switchToEn": "English",
+    "switchToJa": "日本語"
+  }
+}

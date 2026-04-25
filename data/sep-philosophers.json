@@ -1,0 +1,2965 @@
+{
+  "generatedAt": "2026-04-25T07:00:02.977Z",
+  "sourceUrl": "https://plato.stanford.edu/contents.html",
+  "heuristicVersion": 1,
+  "overrides": {
+    "include": [],
+    "exclude": [],
+    "notes": "Add slugs to include (false negatives) or exclude (false positives). Re-run pnpm run generate:sep-philosophers after edits."
+  },
+  "items": [
+    {
+      "slug": "abelard",
+      "title": "Abelard [Abailard], Peter",
+      "url": "https://plato.stanford.edu/entries/abelard/",
+      "titleJa": "ペトルス・アベラルド"
+    },
+    {
+      "slug": "abhidharma",
+      "title": "Abhidharma",
+      "url": "https://plato.stanford.edu/entries/abhidharma/",
+      "titleJa": "アビダルマ"
+    },
+    {
+      "slug": "abrabanel",
+      "title": "Abrabanel, Judah",
+      "url": "https://plato.stanford.edu/entries/abrabanel/",
+      "titleJa": "ユダ・アブラバネル"
+    },
+    {
+      "slug": "addams-jane",
+      "title": "Addams, Jane",
+      "url": "https://plato.stanford.edu/entries/addams-jane/",
+      "titleJa": "ジェーン・アダムス"
+    },
+    {
+      "slug": "adorno",
+      "title": "Adorno, Theodor W.",
+      "url": "https://plato.stanford.edu/entries/adorno/",
+      "titleJa": "テオドール・W・アドルノ"
+    },
+    {
+      "slug": "africana",
+      "title": "Africana Philosophy",
+      "url": "https://plato.stanford.edu/entries/africana/",
+      "titleJa": "アフリカ哲学"
+    },
+    {
+      "slug": "agrippa-nettesheim",
+      "title": "Agrippa von Nettesheim, Heinrich Cornelius",
+      "url": "https://plato.stanford.edu/entries/agrippa-nettesheim/",
+      "titleJa": "ハインリヒ・コルネリウス・アグリッパ・フォン・ネッテスハイム"
+    },
+    {
+      "slug": "albalag",
+      "title": "Albalag, Isaac",
+      "url": "https://plato.stanford.edu/entries/albalag/",
+      "titleJa": "イサク・アルバラグ"
+    },
+    {
+      "slug": "albo-joseph",
+      "title": "Albo, Joseph",
+      "url": "https://plato.stanford.edu/entries/albo-joseph/",
+      "titleJa": "ヨセフ・アルボ"
+    },
+    {
+      "slug": "alcmaeon",
+      "title": "Alcmaeon",
+      "url": "https://plato.stanford.edu/entries/alcmaeon/",
+      "titleJa": "アルクマイオン"
+    },
+    {
+      "slug": "alexander",
+      "title": "Alexander, Samuel",
+      "url": "https://plato.stanford.edu/entries/alexander/",
+      "titleJa": "サミュエル・アレクサンダー"
+    },
+    {
+      "slug": "althusser",
+      "title": "Althusser, Louis",
+      "url": "https://plato.stanford.edu/entries/althusser/",
+      "titleJa": "ルイ・アルチュセール"
+    },
+    {
+      "slug": "alyngton",
+      "title": "Alyngton, Robert",
+      "url": "https://plato.stanford.edu/entries/alyngton/",
+      "titleJa": "ロバート・アリンントン"
+    },
+    {
+      "slug": "ammonius",
+      "title": "Ammonius",
+      "url": "https://plato.stanford.edu/entries/ammonius/",
+      "titleJa": "アンモニオス"
+    },
+    {
+      "slug": "anaxagoras",
+      "title": "Anaxagoras",
+      "url": "https://plato.stanford.edu/entries/anaxagoras/",
+      "titleJa": "アナクサゴラス"
+    },
+    {
+      "slug": "anderson-john",
+      "title": "Anderson, John",
+      "url": "https://plato.stanford.edu/entries/anderson-john/",
+      "titleJa": "ジョン・アンダーソン"
+    },
+    {
+      "slug": "anscombe",
+      "title": "Anscombe, Gertrude Elizabeth Margaret",
+      "url": "https://plato.stanford.edu/entries/anscombe/",
+      "titleJa": "G・E・M・アンスコム"
+    },
+    {
+      "slug": "aquinas",
+      "title": "Aquinas, Thomas",
+      "url": "https://plato.stanford.edu/entries/aquinas/",
+      "titleJa": "トマス・アクィナス"
+    },
+    {
+      "slug": "arcesilaus",
+      "title": "Arcesilaus",
+      "url": "https://plato.stanford.edu/entries/arcesilaus/",
+      "titleJa": "アルケシラオス"
+    },
+    {
+      "slug": "archytas",
+      "title": "Archytas",
+      "url": "https://plato.stanford.edu/entries/archytas/",
+      "titleJa": "アルキュタス"
+    },
+    {
+      "slug": "arendt",
+      "title": "Arendt, Hannah",
+      "url": "https://plato.stanford.edu/entries/arendt/",
+      "titleJa": "ハンナ・アーレント"
+    },
+    {
+      "slug": "aristotle",
+      "title": "Aristotle",
+      "url": "https://plato.stanford.edu/entries/aristotle/",
+      "titleJa": "アリストテレス"
+    },
+    {
+      "slug": "aristotle-commentators",
+      "title": "Aristotle, commentators on",
+      "url": "https://plato.stanford.edu/entries/aristotle-commentators/",
+      "titleJa": "アリストテレスの注釈者たち"
+    },
+    {
+      "slug": "aristotle-logic",
+      "title": "Aristotle, General Topics: logic",
+      "url": "https://plato.stanford.edu/entries/aristotle-logic/",
+      "titleJa": "アリストテレスの論理学"
+    },
+    {
+      "slug": "arnauld",
+      "title": "Arnauld, Antoine",
+      "url": "https://plato.stanford.edu/entries/arnauld/",
+      "titleJa": "アントワーヌ・アルノー"
+    },
+    {
+      "slug": "astell",
+      "title": "Astell, Mary",
+      "url": "https://plato.stanford.edu/entries/astell/",
+      "titleJa": "メアリー・アステル"
+    },
+    {
+      "slug": "auriol",
+      "title": "Auriol [Aureol, Aureoli], Peter",
+      "url": "https://plato.stanford.edu/entries/auriol/",
+      "titleJa": "ペトルス・アウレオリ"
+    },
+    {
+      "slug": "austin-john",
+      "title": "Austin, John",
+      "url": "https://plato.stanford.edu/entries/austin-john/",
+      "titleJa": "ジョン・オースティン"
+    },
+    {
+      "slug": "austin-jl",
+      "title": "Austin, John Langshaw",
+      "url": "https://plato.stanford.edu/entries/austin-jl/",
+      "titleJa": "J・L・オースティン"
+    },
+    {
+      "slug": "ayer",
+      "title": "Ayer, Alfred Jules",
+      "url": "https://plato.stanford.edu/entries/ayer/",
+      "titleJa": "A・J・エイヤー"
+    },
+    {
+      "slug": "francis-bacon",
+      "title": "Bacon, Francis",
+      "url": "https://plato.stanford.edu/entries/francis-bacon/",
+      "titleJa": "フランシス・ベーコン"
+    },
+    {
+      "slug": "roger-bacon",
+      "title": "Bacon, Roger",
+      "url": "https://plato.stanford.edu/entries/roger-bacon/",
+      "titleJa": "ロジャー・ベーコン"
+    },
+    {
+      "slug": "baudrillard",
+      "title": "Baudrillard, Jean",
+      "url": "https://plato.stanford.edu/entries/baudrillard/",
+      "titleJa": "ジャン・ボードリヤール"
+    },
+    {
+      "slug": "bauer",
+      "title": "Bauer, Bruno",
+      "url": "https://plato.stanford.edu/entries/bauer/",
+      "titleJa": "ブルーノ・バウアー"
+    },
+    {
+      "slug": "bayes-theorem",
+      "title": "Bayes’ Theorem",
+      "url": "https://plato.stanford.edu/entries/bayes-theorem/",
+      "titleJa": "ベイズの定理"
+    },
+    {
+      "slug": "bayle",
+      "title": "Bayle, Pierre",
+      "url": "https://plato.stanford.edu/entries/bayle/",
+      "titleJa": "ピエール・ベール"
+    },
+    {
+      "slug": "beardsley-aesthetics",
+      "title": "Beardsley, Monroe C.: aesthetics",
+      "url": "https://plato.stanford.edu/entries/beardsley-aesthetics/",
+      "titleJa": "ビアズリーの美学"
+    },
+    {
+      "slug": "beauvoir",
+      "title": "Beauvoir, Simone de",
+      "url": "https://plato.stanford.edu/entries/beauvoir/",
+      "titleJa": "シモーヌ・ド・ボーヴォワール"
+    },
+    {
+      "slug": "bell-theorem",
+      "title": "Bell’s Theorem",
+      "url": "https://plato.stanford.edu/entries/bell-theorem/",
+      "titleJa": "ベルの定理"
+    },
+    {
+      "slug": "benjamin",
+      "title": "Benjamin, Walter",
+      "url": "https://plato.stanford.edu/entries/benjamin/",
+      "titleJa": "ヴァルター・ベンヤミン"
+    },
+    {
+      "slug": "bentham",
+      "title": "Bentham, Jeremy",
+      "url": "https://plato.stanford.edu/entries/bentham/",
+      "titleJa": "ジェレミー・ベンサム"
+    },
+    {
+      "slug": "bergson",
+      "title": "Bergson, Henri",
+      "url": "https://plato.stanford.edu/entries/bergson/",
+      "titleJa": "アンリ・ベルクソン"
+    },
+    {
+      "slug": "berkeley",
+      "title": "Berkeley, George",
+      "url": "https://plato.stanford.edu/entries/berkeley/",
+      "titleJa": "ジョージ・バークリー"
+    },
+    {
+      "slug": "berlin",
+      "title": "Berlin, Isaiah",
+      "url": "https://plato.stanford.edu/entries/berlin/",
+      "titleJa": "イザヤ・バーリン"
+    },
+    {
+      "slug": "bessarion",
+      "title": "Bessarion, Basil [Cardinal]",
+      "url": "https://plato.stanford.edu/entries/bessarion/",
+      "titleJa": "バシレイオス・ベッサリオン"
+    },
+    {
+      "slug": "bloch",
+      "title": "Bloch, Ernst",
+      "url": "https://plato.stanford.edu/entries/bloch/",
+      "titleJa": "エルンスト・ブロッホ"
+    },
+    {
+      "slug": "bodin",
+      "title": "Bodin, Jean",
+      "url": "https://plato.stanford.edu/entries/bodin/",
+      "titleJa": "ジャン・ボーダン"
+    },
+    {
+      "slug": "boethius",
+      "title": "Boethius, Anicius Manlius Severinus",
+      "url": "https://plato.stanford.edu/entries/boethius/",
+      "titleJa": "ボエティウス"
+    },
+    {
+      "slug": "bolzano",
+      "title": "Bolzano, Bernard",
+      "url": "https://plato.stanford.edu/entries/bolzano/",
+      "titleJa": "ベルナルド・ボルツァーノ"
+    },
+    {
+      "slug": "bonaventure",
+      "title": "Bonaventure",
+      "url": "https://plato.stanford.edu/entries/bonaventure/",
+      "titleJa": "ボナヴェントゥラ"
+    },
+    {
+      "slug": "boole",
+      "title": "Boole, George",
+      "url": "https://plato.stanford.edu/entries/boole/",
+      "titleJa": "ジョージ・ブール"
+    },
+    {
+      "slug": "bosanquet",
+      "title": "Bosanquet, Bernard",
+      "url": "https://plato.stanford.edu/entries/bosanquet/",
+      "titleJa": "バーナード・ボザンケ"
+    },
+    {
+      "slug": "boyle",
+      "title": "Boyle, Robert",
+      "url": "https://plato.stanford.edu/entries/boyle/",
+      "titleJa": "ロバート・ボイル"
+    },
+    {
+      "slug": "bradley",
+      "title": "Bradley, Francis Herbert",
+      "url": "https://plato.stanford.edu/entries/bradley/",
+      "titleJa": "フランシス・ハーバート・ブラッドリー"
+    },
+    {
+      "slug": "brentano",
+      "title": "Brentano, Franz",
+      "url": "https://plato.stanford.edu/entries/brentano/",
+      "titleJa": "フランツ・ブレンターノ"
+    },
+    {
+      "slug": "broad",
+      "title": "Broad, Charlie Dunbar",
+      "url": "https://plato.stanford.edu/entries/broad/",
+      "titleJa": "チャーリー・ダンバー・ブロード"
+    },
+    {
+      "slug": "brouwer",
+      "title": "Brouwer, Luitzen Egbertus Jan",
+      "url": "https://plato.stanford.edu/entries/brouwer/",
+      "titleJa": "ブラウワー"
+    },
+    {
+      "slug": "bruno",
+      "title": "Bruno, Giordano",
+      "url": "https://plato.stanford.edu/entries/bruno/",
+      "titleJa": "ジョルダーノ・ブルーノ"
+    },
+    {
+      "slug": "buber",
+      "title": "Buber, Martin",
+      "url": "https://plato.stanford.edu/entries/buber/",
+      "titleJa": "マルティン・ブーバー"
+    },
+    {
+      "slug": "buddha",
+      "title": "Buddha",
+      "url": "https://plato.stanford.edu/entries/buddha/",
+      "titleJa": "ブッダ"
+    },
+    {
+      "slug": "buridan",
+      "title": "Buridan, John [Jean]",
+      "url": "https://plato.stanford.edu/entries/buridan/",
+      "titleJa": "ジャン・ブリダン"
+    },
+    {
+      "slug": "burke",
+      "title": "Burke, Edmund",
+      "url": "https://plato.stanford.edu/entries/burke/",
+      "titleJa": "エドマンド・バーク"
+    },
+    {
+      "slug": "burley",
+      "title": "Burley [Burleigh], Walter",
+      "url": "https://plato.stanford.edu/entries/burley/",
+      "titleJa": "ウォルター・バーリー"
+    },
+    {
+      "slug": "byzantine-philosophy",
+      "title": "Byzantine Philosophy",
+      "url": "https://plato.stanford.edu/entries/byzantine-philosophy/",
+      "titleJa": "ビザンツ哲学"
+    },
+    {
+      "slug": "cambridge-platonists",
+      "title": "Cambridge Platonists",
+      "url": "https://plato.stanford.edu/entries/cambridge-platonists/",
+      "titleJa": "ケンブリッジ・プラトン主義者"
+    },
+    {
+      "slug": "campanella",
+      "title": "Campanella, Tommaso",
+      "url": "https://plato.stanford.edu/entries/campanella/",
+      "titleJa": "トンマーゾ・カンパネッラ"
+    },
+    {
+      "slug": "camus",
+      "title": "Camus, Albert",
+      "url": "https://plato.stanford.edu/entries/camus/",
+      "titleJa": "アルベール・カミュ"
+    },
+    {
+      "slug": "cardano",
+      "title": "Cardano, Girolamo [Geronimo]",
+      "url": "https://plato.stanford.edu/entries/cardano/",
+      "titleJa": "ジローラモ・カルダーノ"
+    },
+    {
+      "slug": "carnap",
+      "title": "Carnap, Rudolf",
+      "url": "https://plato.stanford.edu/entries/carnap/",
+      "titleJa": "ルドルフ・カルナップ"
+    },
+    {
+      "slug": "carneades",
+      "title": "Carneades",
+      "url": "https://plato.stanford.edu/entries/carneades/",
+      "titleJa": "カルネアデス"
+    },
+    {
+      "slug": "cassirer",
+      "title": "Cassirer, Ernst",
+      "url": "https://plato.stanford.edu/entries/cassirer/",
+      "titleJa": "エルンスト・カッシーラー"
+    },
+    {
+      "slug": "margaret-cavendish",
+      "title": "Cavendish, Margaret Lucas",
+      "url": "https://plato.stanford.edu/entries/margaret-cavendish/",
+      "titleJa": "マーガレット・ルーカス・キャヴェンディッシュ"
+    },
+    {
+      "slug": "emilie-du-chatelet",
+      "title": "Châtelet, Émilie du",
+      "url": "https://plato.stanford.edu/entries/emilie-du-chatelet/",
+      "titleJa": "エミリー・デュ・シャトレ"
+    },
+    {
+      "slug": "walter-chatton",
+      "title": "Chatton, Walter",
+      "url": "https://plato.stanford.edu/entries/walter-chatton/",
+      "titleJa": "ウォルター・シャットン"
+    },
+    {
+      "slug": "chisholm",
+      "title": "Chisholm, Roderick",
+      "url": "https://plato.stanford.edu/entries/chisholm/",
+      "titleJa": "ロデリック・チザム"
+    },
+    {
+      "slug": "christiantheology-philosophy",
+      "title": "Christian theology, philosophy and",
+      "url": "https://plato.stanford.edu/entries/christiantheology-philosophy/",
+      "titleJa": "キリスト教神学と哲学"
+    },
+    {
+      "slug": "church-turing",
+      "title": "Church-Turing Thesis",
+      "url": "https://plato.stanford.edu/entries/church-turing/",
+      "titleJa": "チャーチ＝チューリングのテーゼ"
+    },
+    {
+      "slug": "church",
+      "title": "Church, Alonzo",
+      "url": "https://plato.stanford.edu/entries/church/",
+      "titleJa": "アロンゾ・チャーチ"
+    },
+    {
+      "slug": "cicero",
+      "title": "Cicero",
+      "url": "https://plato.stanford.edu/entries/cicero/",
+      "titleJa": "キケロ"
+    },
+    {
+      "slug": "clarke",
+      "title": "Clarke, Samuel",
+      "url": "https://plato.stanford.edu/entries/clarke/",
+      "titleJa": "サミュエル・クラーク"
+    },
+    {
+      "slug": "clauberg",
+      "title": "Clauberg, Johannes",
+      "url": "https://plato.stanford.edu/entries/clauberg/",
+      "titleJa": "ヨハネス・クラウベルク"
+    },
+    {
+      "slug": "cockburn",
+      "title": "Cockburn, Catharine Trotter",
+      "url": "https://plato.stanford.edu/entries/cockburn/",
+      "titleJa": "キャサリン・トロッター・コックバーン"
+    },
+    {
+      "slug": "cohen",
+      "title": "Cohen, Hermann",
+      "url": "https://plato.stanford.edu/entries/cohen/",
+      "titleJa": "ヘルマン・コーエン"
+    },
+    {
+      "slug": "collingwood",
+      "title": "Collingwood, Robin George",
+      "url": "https://plato.stanford.edu/entries/collingwood/",
+      "titleJa": "ロビン・ジョージ・コリングウッド"
+    },
+    {
+      "slug": "collingwood-aesthetics",
+      "title": "Collingwood, Robin George: aesthetics",
+      "url": "https://plato.stanford.edu/entries/collingwood-aesthetics/",
+      "titleJa": "ロビン・ジョージ・コリングウッド：美学"
+    },
+    {
+      "slug": "collins",
+      "title": "Collins, Anthony",
+      "url": "https://plato.stanford.edu/entries/collins/",
+      "titleJa": "アンソニー・コリンズ"
+    },
+    {
+      "slug": "comte",
+      "title": "Comte, Auguste",
+      "url": "https://plato.stanford.edu/entries/comte/",
+      "titleJa": "オーギュスト・コント"
+    },
+    {
+      "slug": "condillac",
+      "title": "Condillac, Étienne Bonnot de",
+      "url": "https://plato.stanford.edu/entries/condillac/",
+      "titleJa": "エティエンヌ・ボノ・ド・コンディヤック"
+    },
+    {
+      "slug": "confucius",
+      "title": "Confucius",
+      "url": "https://plato.stanford.edu/entries/confucius/",
+      "titleJa": "孔子"
+    },
+    {
+      "slug": "conway",
+      "title": "Conway, Lady Anne",
+      "url": "https://plato.stanford.edu/entries/conway/",
+      "titleJa": "アン・コンウェイ"
+    },
+    {
+      "slug": "anna-julia-cooper",
+      "title": "Cooper, Anna Julia",
+      "url": "https://plato.stanford.edu/entries/anna-julia-cooper/",
+      "titleJa": "アンナ・ジュリア・クーパー"
+    },
+    {
+      "slug": "copernicus",
+      "title": "Copernicus, Nicolaus",
+      "url": "https://plato.stanford.edu/entries/copernicus/",
+      "titleJa": "ニコラウス・コペルニクス"
+    },
+    {
+      "slug": "cordemoy",
+      "title": "Cordemoy, Géraud de",
+      "url": "https://plato.stanford.edu/entries/cordemoy/",
+      "titleJa": "ジェロー・ド・コルデモワ"
+    },
+    {
+      "slug": "crathorn",
+      "title": "Crathorn, William",
+      "url": "https://plato.stanford.edu/entries/crathorn/",
+      "titleJa": "ウィリアム・クラソーン"
+    },
+    {
+      "slug": "plato-cratylus",
+      "title": "Cratylus",
+      "url": "https://plato.stanford.edu/entries/plato-cratylus/",
+      "titleJa": "クラテュロス"
+    },
+    {
+      "slug": "crescas",
+      "title": "Crescas, Hasdai",
+      "url": "https://plato.stanford.edu/entries/crescas/",
+      "titleJa": "ハスダイ・クレスカス"
+    },
+    {
+      "slug": "croce-aesthetics",
+      "title": "Croce, Benedetto: aesthetics",
+      "url": "https://plato.stanford.edu/entries/croce-aesthetics/",
+      "titleJa": "ベネデット・クローチェ：美学"
+    },
+    {
+      "slug": "alexander-crummell",
+      "title": "Crummell, Alexander",
+      "url": "https://plato.stanford.edu/entries/alexander-crummell/",
+      "titleJa": "アレクサンダー・クラメル"
+    },
+    {
+      "slug": "cudworth",
+      "title": "Cudworth, Ralph",
+      "url": "https://plato.stanford.edu/entries/cudworth/",
+      "titleJa": "ラルフ・カドワース"
+    },
+    {
+      "slug": "cugoano",
+      "title": "Cugoano, Ottobah",
+      "url": "https://plato.stanford.edu/entries/cugoano/",
+      "titleJa": "オットバー・クゴアノ"
+    },
+    {
+      "slug": "cusanus",
+      "title": "Cusanus, Nicolaus [Nicolas of Cusa]",
+      "url": "https://plato.stanford.edu/entries/cusanus/",
+      "titleJa": "ニコラウス・クザーヌス"
+    },
+    {
+      "slug": "cyrenaics",
+      "title": "Cyrenaics",
+      "url": "https://plato.stanford.edu/entries/cyrenaics/",
+      "titleJa": "キュレネ派"
+    },
+    {
+      "slug": "dai-zhen",
+      "title": "Dai Zhen",
+      "url": "https://plato.stanford.edu/entries/dai-zhen/",
+      "titleJa": "戴震"
+    },
+    {
+      "slug": "peter-damian",
+      "title": "Damian, Peter",
+      "url": "https://plato.stanford.edu/entries/peter-damian/",
+      "titleJa": "ペトルス・ダミアニ"
+    },
+    {
+      "slug": "dante",
+      "title": "Dante Alighieri",
+      "url": "https://plato.stanford.edu/entries/dante/",
+      "titleJa": "ダンテ・アリギエーリ"
+    },
+    {
+      "slug": "daoism",
+      "title": "Daoism",
+      "url": "https://plato.stanford.edu/entries/daoism/",
+      "titleJa": "道教"
+    },
+    {
+      "slug": "darwinism",
+      "title": "Darwinism",
+      "url": "https://plato.stanford.edu/entries/darwinism/",
+      "titleJa": "ダーウィニズム"
+    },
+    {
+      "slug": "david",
+      "title": "David",
+      "url": "https://plato.stanford.edu/entries/david/",
+      "titleJa": "ダビデ"
+    },
+    {
+      "slug": "davidson",
+      "title": "Davidson, Donald",
+      "url": "https://plato.stanford.edu/entries/davidson/",
+      "titleJa": "ドナルド・デイヴィッドソン"
+    },
+    {
+      "slug": "dedekind-foundations",
+      "title": "Dedekind, Richard: contributions to the foundations of mathematics",
+      "url": "https://plato.stanford.edu/entries/dedekind-foundations/",
+      "titleJa": "リヒャルト・デデキント：数学の基礎論への貢献"
+    },
+    {
+      "slug": "deleuze",
+      "title": "Deleuze, Gilles",
+      "url": "https://plato.stanford.edu/entries/deleuze/",
+      "titleJa": "ジル・ドゥルーズ"
+    },
+    {
+      "slug": "delmedigo",
+      "title": "Delmedigo, Elijah",
+      "url": "https://plato.stanford.edu/entries/delmedigo/",
+      "titleJa": "エリヤ・デルメディゴ"
+    },
+    {
+      "slug": "democritus",
+      "title": "Democritus",
+      "url": "https://plato.stanford.edu/entries/democritus/",
+      "titleJa": "デモクリトス"
+    },
+    {
+      "slug": "derrida",
+      "title": "Derrida, Jacques",
+      "url": "https://plato.stanford.edu/entries/derrida/",
+      "titleJa": "ジャック・デリダ"
+    },
+    {
+      "slug": "descartes",
+      "title": "Descartes, René",
+      "url": "https://plato.stanford.edu/entries/descartes/",
+      "titleJa": "ルネ・デカルト"
+    },
+    {
+      "slug": "descartes-modal",
+      "title": "Descartes, René: modal metaphysics",
+      "url": "https://plato.stanford.edu/entries/descartes-modal/",
+      "titleJa": "ルネ・デカルト：様相形而上学"
+    },
+    {
+      "slug": "descartes-ontological",
+      "title": "Descartes, René: ontological argument",
+      "url": "https://plato.stanford.edu/entries/descartes-ontological/",
+      "titleJa": "ルネ・デカルト：存在論的証明"
+    },
+    {
+      "slug": "desgabets",
+      "title": "Desgabets, Robert",
+      "url": "https://plato.stanford.edu/entries/desgabets/",
+      "titleJa": "ロベール・デガベ"
+    },
+    {
+      "slug": "dewey",
+      "title": "Dewey, John",
+      "url": "https://plato.stanford.edu/entries/dewey/",
+      "titleJa": "ジョン・デューイ"
+    },
+    {
+      "slug": "dewey-aesthetics",
+      "title": "Dewey, John: aesthetics",
+      "url": "https://plato.stanford.edu/entries/dewey-aesthetics/",
+      "titleJa": "ジョン・デューイ：美学"
+    },
+    {
+      "slug": "dharmakiirti",
+      "title": "Dharmakīrti",
+      "url": "https://plato.stanford.edu/entries/dharmakiirti/",
+      "titleJa": "ダルマキールティ"
+    },
+    {
+      "slug": "dialectical-school",
+      "title": "Dialectical School",
+      "url": "https://plato.stanford.edu/entries/dialectical-school/",
+      "titleJa": "弁証法学派"
+    },
+    {
+      "slug": "diderot",
+      "title": "Diderot, Denis",
+      "url": "https://plato.stanford.edu/entries/diderot/",
+      "titleJa": "ドゥニ・ディドロ"
+    },
+    {
+      "slug": "dilthey",
+      "title": "Dilthey, Wilhelm",
+      "url": "https://plato.stanford.edu/entries/dilthey/",
+      "titleJa": "ヴィルヘルム・ディルタイ"
+    },
+    {
+      "slug": "diodorus-cronus",
+      "title": "Diodorus Cronus",
+      "url": "https://plato.stanford.edu/entries/diodorus-cronus/",
+      "titleJa": "ディオドロス・クロノス"
+    },
+    {
+      "slug": "frederick-douglass",
+      "title": "Douglass, Frederick",
+      "url": "https://plato.stanford.edu/entries/frederick-douglass/",
+      "titleJa": "フレデリック・ダグラス"
+    },
+    {
+      "slug": "dubois",
+      "title": "Du Bois, W.E.B.",
+      "url": "https://plato.stanford.edu/entries/dubois/",
+      "titleJa": "W・E・B・デュボイス"
+    },
+    {
+      "slug": "du-bos",
+      "title": "Du Bos, Jean-Baptiste",
+      "url": "https://plato.stanford.edu/entries/du-bos/",
+      "titleJa": "ジャン＝バティスト・デュ・ボス"
+    },
+    {
+      "slug": "duhem",
+      "title": "Duhem, Pierre",
+      "url": "https://plato.stanford.edu/entries/duhem/",
+      "titleJa": "ピエール・デュエム"
+    },
+    {
+      "slug": "duns-scotus",
+      "title": "Duns Scotus, John",
+      "url": "https://plato.stanford.edu/entries/duns-scotus/",
+      "titleJa": "ヨハネス・ドゥンス・スコトゥス"
+    },
+    {
+      "slug": "early-modern-india",
+      "title": "Early Modern India, analytic philosophy in",
+      "url": "https://plato.stanford.edu/entries/early-modern-india/",
+      "titleJa": "近世インドにおける分析哲学"
+    },
+    {
+      "slug": "edwards",
+      "title": "Edwards, Jonathan",
+      "url": "https://plato.stanford.edu/entries/edwards/",
+      "titleJa": "ジョナサン・エドワーズ"
+    },
+    {
+      "slug": "ehrenfels",
+      "title": "Ehrenfels, Christian von",
+      "url": "https://plato.stanford.edu/entries/ehrenfels/",
+      "titleJa": "クリスチャン・フォン・エーレンフェルス"
+    },
+    {
+      "slug": "elias",
+      "title": "Elias",
+      "url": "https://plato.stanford.edu/entries/elias/",
+      "titleJa": "エリアス"
+    },
+    {
+      "slug": "elisabeth-bohemia",
+      "title": "Elisabeth, Princess of Bohemia",
+      "url": "https://plato.stanford.edu/entries/elisabeth-bohemia/",
+      "titleJa": "ボヘミアのエリザベート王女"
+    },
+    {
+      "slug": "emerson",
+      "title": "Emerson, Ralph Waldo",
+      "url": "https://plato.stanford.edu/entries/emerson/",
+      "titleJa": "ラルフ・ワルド・エマーソン"
+    },
+    {
+      "slug": "empedocles",
+      "title": "Empedocles",
+      "url": "https://plato.stanford.edu/entries/empedocles/",
+      "titleJa": "エンペドクレス"
+    },
+    {
+      "slug": "enlightenment",
+      "title": "Enlightenment",
+      "url": "https://plato.stanford.edu/entries/enlightenment/",
+      "titleJa": "啓蒙主義"
+    },
+    {
+      "slug": "epictetus",
+      "title": "Epictetus",
+      "url": "https://plato.stanford.edu/entries/epictetus/",
+      "titleJa": "エピクテトス"
+    },
+    {
+      "slug": "epicurus",
+      "title": "Epicurus",
+      "url": "https://plato.stanford.edu/entries/epicurus/",
+      "titleJa": "エピクロス"
+    },
+    {
+      "slug": "erasmus",
+      "title": "Erasmus, Desiderius",
+      "url": "https://plato.stanford.edu/entries/erasmus/",
+      "titleJa": "デジデリウス・エラスムス"
+    },
+    {
+      "slug": "scottus-eriugena",
+      "title": "Eriugena, John Scottus",
+      "url": "https://plato.stanford.edu/entries/scottus-eriugena/",
+      "titleJa": "ヨハネス・スコトゥス・エリウゲナ"
+    },
+    {
+      "slug": "qm-everett",
+      "title": "Everettian",
+      "url": "https://plato.stanford.edu/entries/qm-everett/",
+      "titleJa": "エヴェレット解釈"
+    },
+    {
+      "slug": "leibniz-exoteric",
+      "title": "Exoteric Philosophy",
+      "url": "https://plato.stanford.edu/entries/leibniz-exoteric/",
+      "titleJa": "外面的哲学"
+    },
+    {
+      "slug": "falaquera",
+      "title": "Falaquera, Shem Tov Ibn",
+      "url": "https://plato.stanford.edu/entries/falaquera/",
+      "titleJa": "シェム・トヴ・イブン・ファラケラ"
+    },
+    {
+      "slug": "frantz-fanon",
+      "title": "Fanon, Frantz",
+      "url": "https://plato.stanford.edu/entries/frantz-fanon/",
+      "titleJa": "フランツ・ファノン"
+    },
+    {
+      "slug": "fechner",
+      "title": "Fechner, Gustav Theodor",
+      "url": "https://plato.stanford.edu/entries/fechner/",
+      "titleJa": "グスタフ・テオドール・フェヒナー"
+    },
+    {
+      "slug": "feigl",
+      "title": "Feigl, Herbert",
+      "url": "https://plato.stanford.edu/entries/feigl/",
+      "titleJa": "ハーバート・ファイグル"
+    },
+    {
+      "slug": "margaret-fell",
+      "title": "Fell, Margaret",
+      "url": "https://plato.stanford.edu/entries/margaret-fell/",
+      "titleJa": "マーガレット・フェル"
+    },
+    {
+      "slug": "ludwig-feuerbach",
+      "title": "Feuerbach, Ludwig Andreas",
+      "url": "https://plato.stanford.edu/entries/ludwig-feuerbach/",
+      "titleJa": "ルートヴィヒ・アンドレアス・フォイエルバッハ"
+    },
+    {
+      "slug": "feyerabend",
+      "title": "Feyerabend, Paul",
+      "url": "https://plato.stanford.edu/entries/feyerabend/",
+      "titleJa": "ポール・ファイヤアーベント"
+    },
+    {
+      "slug": "johann-fichte",
+      "title": "Fichte, Johann Gottlieb",
+      "url": "https://plato.stanford.edu/entries/johann-fichte/",
+      "titleJa": "ヨハン・ゴットリープ・フィヒテ"
+    },
+    {
+      "slug": "ficino",
+      "title": "Ficino, Marsilio",
+      "url": "https://plato.stanford.edu/entries/ficino/",
+      "titleJa": "マルシリオ・フィチーノ"
+    },
+    {
+      "slug": "findlay",
+      "title": "Findlay, J.N.",
+      "url": "https://plato.stanford.edu/entries/findlay/",
+      "titleJa": "J・N・フィンドレー"
+    },
+    {
+      "slug": "fitzralph",
+      "title": "FitzRalph, Richard",
+      "url": "https://plato.stanford.edu/entries/fitzralph/",
+      "titleJa": "リチャード・フィッツラルフ"
+    },
+    {
+      "slug": "fleck",
+      "title": "Fleck, Ludwik",
+      "url": "https://plato.stanford.edu/entries/fleck/",
+      "titleJa": "ルドヴィク・フレック"
+    },
+    {
+      "slug": "philippa-foot",
+      "title": "Foot, Philippa",
+      "url": "https://plato.stanford.edu/entries/philippa-foot/",
+      "titleJa": "フィリッパ・フット"
+    },
+    {
+      "slug": "foucault",
+      "title": "Foucault, Michel",
+      "url": "https://plato.stanford.edu/entries/foucault/",
+      "titleJa": "ミシェル・フーコー"
+    },
+    {
+      "slug": "frege",
+      "title": "Frege, Gottlob",
+      "url": "https://plato.stanford.edu/entries/frege/",
+      "titleJa": "ゴットロープ・フレーゲ"
+    },
+    {
+      "slug": "frege-hilbert",
+      "title": "Frege, Gottlob: controversy with Hilbert",
+      "url": "https://plato.stanford.edu/entries/frege-hilbert/",
+      "titleJa": "フレーゲとヒルベルトの論争"
+    },
+    {
+      "slug": "fuller-margaret",
+      "title": "Fuller, Margaret",
+      "url": "https://plato.stanford.edu/entries/fuller-margaret/",
+      "titleJa": "マーガレット・フラー"
+    },
+    {
+      "slug": "gadamer",
+      "title": "Gadamer, Hans-Georg",
+      "url": "https://plato.stanford.edu/entries/gadamer/",
+      "titleJa": "ハンス・ゲオルク・ガダマー"
+    },
+    {
+      "slug": "gadamer-aesthetics",
+      "title": "Gadamer, Hans-Georg: aesthetics",
+      "url": "https://plato.stanford.edu/entries/gadamer-aesthetics/",
+      "titleJa": "ガダマー：美学"
+    },
+    {
+      "slug": "galen",
+      "title": "Galen",
+      "url": "https://plato.stanford.edu/entries/galen/",
+      "titleJa": "ガレノス"
+    },
+    {
+      "slug": "galileo",
+      "title": "Galileo Galilei",
+      "url": "https://plato.stanford.edu/entries/galileo/",
+      "titleJa": "ガリレオ・ガリレイ"
+    },
+    {
+      "slug": "gangesa",
+      "title": "Gaṅgeśa",
+      "url": "https://plato.stanford.edu/entries/gangesa/",
+      "titleJa": "ガンゲーシャ"
+    },
+    {
+      "slug": "gassendi",
+      "title": "Gassendi, Pierre",
+      "url": "https://plato.stanford.edu/entries/gassendi/",
+      "titleJa": "ピエール・ガッサンディ"
+    },
+    {
+      "slug": "george-eliot",
+      "title": "George, Eliot",
+      "url": "https://plato.stanford.edu/entries/george-eliot/",
+      "titleJa": "ジョージ・エリオット"
+    },
+    {
+      "slug": "gersonides",
+      "title": "Gersonides",
+      "url": "https://plato.stanford.edu/entries/gersonides/",
+      "titleJa": "ゲルソニデス"
+    },
+    {
+      "slug": "goedel",
+      "title": "Gödel, Kurt",
+      "url": "https://plato.stanford.edu/entries/goedel/",
+      "titleJa": "クルト・ゲーデル"
+    },
+    {
+      "slug": "godwin",
+      "title": "Godwin, William",
+      "url": "https://plato.stanford.edu/entries/godwin/",
+      "titleJa": "ウィリアム・ゴドウィン"
+    },
+    {
+      "slug": "goodman",
+      "title": "Goodman, Nelson",
+      "url": "https://plato.stanford.edu/entries/goodman/",
+      "titleJa": "ネルソン・グッドマン"
+    },
+    {
+      "slug": "goodman-aesthetics",
+      "title": "Goodman, Nelson: aesthetics",
+      "url": "https://plato.stanford.edu/entries/goodman-aesthetics/",
+      "titleJa": "グッドマン：美学"
+    },
+    {
+      "slug": "gramsci",
+      "title": "Gramsci, Antonio",
+      "url": "https://plato.stanford.edu/entries/gramsci/",
+      "titleJa": "アントニオ・グラムシ"
+    },
+    {
+      "slug": "green",
+      "title": "Green, Thomas Hill",
+      "url": "https://plato.stanford.edu/entries/green/",
+      "titleJa": "トーマス・ヒル・グリーン"
+    },
+    {
+      "slug": "grice",
+      "title": "Grice, Paul",
+      "url": "https://plato.stanford.edu/entries/grice/",
+      "titleJa": "ポール・グライス"
+    },
+    {
+      "slug": "grosseteste",
+      "title": "Grosseteste, Robert",
+      "url": "https://plato.stanford.edu/entries/grosseteste/",
+      "titleJa": "ロバート・グロステスト"
+    },
+    {
+      "slug": "grotius",
+      "title": "Grotius, Hugo",
+      "url": "https://plato.stanford.edu/entries/grotius/",
+      "titleJa": "フーゴー・グロティウス"
+    },
+    {
+      "slug": "habermas",
+      "title": "Habermas, Jürgen",
+      "url": "https://plato.stanford.edu/entries/habermas/",
+      "titleJa": "ユルゲン・ハーバーマス"
+    },
+    {
+      "slug": "halevi",
+      "title": "Halevi, Judah",
+      "url": "https://plato.stanford.edu/entries/halevi/",
+      "titleJa": "ユダ・ハレヴィ"
+    },
+    {
+      "slug": "hamann",
+      "title": "Hamann, Johann Georg",
+      "url": "https://plato.stanford.edu/entries/hamann/",
+      "titleJa": "ヨハン・ゲオルク・ハーマン"
+    },
+    {
+      "slug": "han-dynasty",
+      "title": "Han Dynasty",
+      "url": "https://plato.stanford.edu/entries/han-dynasty/",
+      "titleJa": "漢王朝"
+    },
+    {
+      "slug": "hare",
+      "title": "Hare, Richard Mervyn",
+      "url": "https://plato.stanford.edu/entries/hare/",
+      "titleJa": "リチャード・マーヴィン・ヘア"
+    },
+    {
+      "slug": "hartley",
+      "title": "Hartley, David",
+      "url": "https://plato.stanford.edu/entries/hartley/",
+      "titleJa": "デイヴィッド・ハートリー"
+    },
+    {
+      "slug": "nicolai-hartmann",
+      "title": "Hartmann, Nicolai",
+      "url": "https://plato.stanford.edu/entries/nicolai-hartmann/",
+      "titleJa": "ニコライ・ハルトマン"
+    },
+    {
+      "slug": "hartshorne",
+      "title": "Hartshorne, Charles",
+      "url": "https://plato.stanford.edu/entries/hartshorne/",
+      "titleJa": "チャールズ・ハーツホーン"
+    },
+    {
+      "slug": "friedrich-hayek",
+      "title": "Hayek, Friedrich",
+      "url": "https://plato.stanford.edu/entries/friedrich-hayek/",
+      "titleJa": "フリードリヒ・ハイエク"
+    },
+    {
+      "slug": "hegel",
+      "title": "Hegel, Georg Wilhelm Friedrich",
+      "url": "https://plato.stanford.edu/entries/hegel/",
+      "titleJa": "ゲオルク・ヴィルヘルム・フリードリヒ・ヘーゲル"
+    },
+    {
+      "slug": "hegel-aesthetics",
+      "title": "Hegel, Georg Wilhelm Friedrich: aesthetics",
+      "url": "https://plato.stanford.edu/entries/hegel-aesthetics/",
+      "titleJa": "ヘーゲル：美学"
+    },
+    {
+      "slug": "hegel-dialectics",
+      "title": "Hegel, Georg Wilhelm Friedrich: dialectics",
+      "url": "https://plato.stanford.edu/entries/hegel-dialectics/",
+      "titleJa": "ヘーゲル：弁証法"
+    },
+    {
+      "slug": "heidegger",
+      "title": "Heidegger, Martin",
+      "url": "https://plato.stanford.edu/entries/heidegger/",
+      "titleJa": "マルティン・ハイデガー"
+    },
+    {
+      "slug": "heidegger-aesthetics",
+      "title": "Heidegger, Martin: aesthetics",
+      "url": "https://plato.stanford.edu/entries/heidegger-aesthetics/",
+      "titleJa": "ハイデガー：美学"
+    },
+    {
+      "slug": "hermann-helmholtz",
+      "title": "Helmholtz, Hermann von",
+      "url": "https://plato.stanford.edu/entries/hermann-helmholtz/",
+      "titleJa": "ヘルマン・フォン・ヘルムホルツ"
+    },
+    {
+      "slug": "hempel",
+      "title": "Hempel, Carl",
+      "url": "https://plato.stanford.edu/entries/hempel/",
+      "titleJa": "カール・ヘンペル"
+    },
+    {
+      "slug": "michel-henry",
+      "title": "Henry, Michel",
+      "url": "https://plato.stanford.edu/entries/michel-henry/",
+      "titleJa": "ミシェル・アンリ"
+    },
+    {
+      "slug": "heraclitus",
+      "title": "Heraclitus",
+      "url": "https://plato.stanford.edu/entries/heraclitus/",
+      "titleJa": "ヘラクレイトス"
+    },
+    {
+      "slug": "johann-herbart",
+      "title": "Herbart, Johann Friedrich",
+      "url": "https://plato.stanford.edu/entries/johann-herbart/",
+      "titleJa": "ヨハン・フリードリヒ・ヘルバルト"
+    },
+    {
+      "slug": "herder",
+      "title": "Herder, Johann Gottfried von",
+      "url": "https://plato.stanford.edu/entries/herder/",
+      "titleJa": "ヨハン・ゴットフリート・フォン・ヘルダー"
+    },
+    {
+      "slug": "heytesbury",
+      "title": "Heytesbury, William",
+      "url": "https://plato.stanford.edu/entries/heytesbury/",
+      "titleJa": "ウィリアム・ヘイツベリー"
+    },
+    {
+      "slug": "hobbes",
+      "title": "Hobbes, Thomas",
+      "url": "https://plato.stanford.edu/entries/hobbes/",
+      "titleJa": "トマス・ホッブズ"
+    },
+    {
+      "slug": "holbach",
+      "title": "Holbach, Paul-Henri Thiry (Baron) d’",
+      "url": "https://plato.stanford.edu/entries/holbach/",
+      "titleJa": "ポール＝アンリ・ティリー・ドルバック"
+    },
+    {
+      "slug": "holkot",
+      "title": "Holkot [Holcot], Robert",
+      "url": "https://plato.stanford.edu/entries/holkot/",
+      "titleJa": "ロバート・ホルコット"
+    },
+    {
+      "slug": "sidney-hook",
+      "title": "Hook, Sidney",
+      "url": "https://plato.stanford.edu/entries/sidney-hook/",
+      "titleJa": "シドニー・フック"
+    },
+    {
+      "slug": "horkheimer",
+      "title": "Horkheimer, Max",
+      "url": "https://plato.stanford.edu/entries/horkheimer/",
+      "titleJa": "マックス・ホルクハイマー"
+    },
+    {
+      "slug": "alexander-humboldt",
+      "title": "Humboldt, Alexander von",
+      "url": "https://plato.stanford.edu/entries/alexander-humboldt/",
+      "titleJa": "アレクサンダー・フォン・フンボルト"
+    },
+    {
+      "slug": "wilhelm-humboldt",
+      "title": "Humboldt, Wilhelm von",
+      "url": "https://plato.stanford.edu/entries/wilhelm-humboldt/",
+      "titleJa": "ヴィルヘルム・フォン・フンボルト"
+    },
+    {
+      "slug": "hume",
+      "title": "Hume, David",
+      "url": "https://plato.stanford.edu/entries/hume/",
+      "titleJa": "デイヴィッド・ヒューム"
+    },
+    {
+      "slug": "hume-aesthetics",
+      "title": "Hume, David: aesthetics",
+      "url": "https://plato.stanford.edu/entries/hume-aesthetics/",
+      "titleJa": "デイヴィッド・ヒューム：美学"
+    },
+    {
+      "slug": "husserl",
+      "title": "Husserl, Edmund",
+      "url": "https://plato.stanford.edu/entries/husserl/",
+      "titleJa": "エドムント・フッサール"
+    },
+    {
+      "slug": "hutcheson",
+      "title": "Hutcheson, Francis",
+      "url": "https://plato.stanford.edu/entries/hutcheson/",
+      "titleJa": "フランシス・ハッチソン"
+    },
+    {
+      "slug": "iamblichus",
+      "title": "Iamblichus",
+      "url": "https://plato.stanford.edu/entries/iamblichus/",
+      "titleJa": "イアンブリコス"
+    },
+    {
+      "slug": "abraham-daud",
+      "title": "Ibn Daud, Abraham",
+      "url": "https://plato.stanford.edu/entries/abraham-daud/",
+      "titleJa": "アブラハム・イブン・ダウド"
+    },
+    {
+      "slug": "ibn-ezra",
+      "title": "Ibn Ezra, Abraham",
+      "url": "https://plato.stanford.edu/entries/ibn-ezra/",
+      "titleJa": "アブラハム・イブン・エズラ"
+    },
+    {
+      "slug": "ibn-gabirol",
+      "title": "Ibn Gabirol, Solomon [Avicebron]",
+      "url": "https://plato.stanford.edu/entries/ibn-gabirol/",
+      "titleJa": "ソロモン・イブン・ガビーロール（アヴィケブロン）"
+    },
+    {
+      "slug": "ibn-kammuna",
+      "title": "Ibn Kammūna",
+      "url": "https://plato.stanford.edu/entries/ibn-kammuna/",
+      "titleJa": "イブン・カンムーナ"
+    },
+    {
+      "slug": "ibn-taymiyya",
+      "title": "Ibn Taymiyya",
+      "url": "https://plato.stanford.edu/entries/ibn-taymiyya/",
+      "titleJa": "イブン・タイミーヤ"
+    },
+    {
+      "slug": "ingarden",
+      "title": "Ingarden, Roman",
+      "url": "https://plato.stanford.edu/entries/ingarden/",
+      "titleJa": "ローマン・インガルデン"
+    },
+    {
+      "slug": "israeli",
+      "title": "Israeli, Isaac",
+      "url": "https://plato.stanford.edu/entries/israeli/",
+      "titleJa": "イサク・イスラエリ"
+    },
+    {
+      "slug": "john-italos",
+      "title": "Italos, John",
+      "url": "https://plato.stanford.edu/entries/john-italos/",
+      "titleJa": "ヨハネス・イタロス"
+    },
+    {
+      "slug": "friedrich-jacobi",
+      "title": "Jacobi, Friedrich Heinrich",
+      "url": "https://plato.stanford.edu/entries/friedrich-jacobi/",
+      "titleJa": "フリードリヒ・ハインリヒ・ヤコービ"
+    },
+    {
+      "slug": "jaina-philosophy",
+      "title": "Jaina Philosophy",
+      "url": "https://plato.stanford.edu/entries/jaina-philosophy/",
+      "titleJa": "ジャイナ哲学"
+    },
+    {
+      "slug": "james",
+      "title": "James, William",
+      "url": "https://plato.stanford.edu/entries/james/",
+      "titleJa": "ウィリアム・ジェイムズ"
+    },
+    {
+      "slug": "japanese-philosophy",
+      "title": "Japanese Philosophy",
+      "url": "https://plato.stanford.edu/entries/japanese-philosophy/",
+      "titleJa": "日本哲学"
+    },
+    {
+      "slug": "jaspers",
+      "title": "Jaspers, Karl",
+      "url": "https://plato.stanford.edu/entries/jaspers/",
+      "titleJa": "カール・ヤスパース"
+    },
+    {
+      "slug": "jayaraasi",
+      "title": "Jayarāśi",
+      "url": "https://plato.stanford.edu/entries/jayaraasi/",
+      "titleJa": "ジャヤラーシ"
+    },
+    {
+      "slug": "jefferson",
+      "title": "Jefferson, Thomas",
+      "url": "https://plato.stanford.edu/entries/jefferson/",
+      "titleJa": "トーマス・ジェファーソン"
+    },
+    {
+      "slug": "william-jevons",
+      "title": "Jevons, William Stanley",
+      "url": "https://plato.stanford.edu/entries/william-jevons/",
+      "titleJa": "ウィリアム・スタンレー・ジェヴォンズ"
+    },
+    {
+      "slug": "emily-elizabeth-constance-jones",
+      "title": "Jones, Emily Elizabeth Constance",
+      "url": "https://plato.stanford.edu/entries/emily-elizabeth-constance-jones/",
+      "titleJa": "エミリー・エリザベス・コンスタンス・ジョーンズ"
+    },
+    {
+      "slug": "kant",
+      "title": "Kant, Immanuel",
+      "url": "https://plato.stanford.edu/entries/kant/",
+      "titleJa": "イマヌエル・カント"
+    },
+    {
+      "slug": "kant-transcendental",
+      "title": "Kant, Immanuel: transcendental arguments",
+      "url": "https://plato.stanford.edu/entries/kant-transcendental/",
+      "titleJa": "イマヌエル・カント：超越論的論証"
+    },
+    {
+      "slug": "kaspi-joseph",
+      "title": "Kaspi, Joseph",
+      "url": "https://plato.stanford.edu/entries/kaspi-joseph/",
+      "titleJa": "ヨセフ・カスピー"
+    },
+    {
+      "slug": "kepler",
+      "title": "Kepler, Johannes",
+      "url": "https://plato.stanford.edu/entries/kepler/",
+      "titleJa": "ヨハネス・ケプラー"
+    },
+    {
+      "slug": "kierkegaard",
+      "title": "Kierkegaard, Søren",
+      "url": "https://plato.stanford.edu/entries/kierkegaard/",
+      "titleJa": "セーレン・キルケゴール"
+    },
+    {
+      "slug": "kilvington",
+      "title": "Kilvington, Richard",
+      "url": "https://plato.stanford.edu/entries/kilvington/",
+      "titleJa": "リチャード・キルヴィントン"
+    },
+    {
+      "slug": "robert-kilwardby",
+      "title": "Kilwardby, Robert",
+      "url": "https://plato.stanford.edu/entries/robert-kilwardby/",
+      "titleJa": "ロバート・キルワービー"
+    },
+    {
+      "slug": "korean-philosophy",
+      "title": "Korean Philosophy",
+      "url": "https://plato.stanford.edu/entries/korean-philosophy/",
+      "titleJa": "韓国哲学"
+    },
+    {
+      "slug": "thomas-kuhn",
+      "title": "Kuhn, Thomas",
+      "url": "https://plato.stanford.edu/entries/thomas-kuhn/",
+      "titleJa": "トーマス・クーン"
+    },
+    {
+      "slug": "kumaarila",
+      "title": "Kumārila",
+      "url": "https://plato.stanford.edu/entries/kumaarila/",
+      "titleJa": "クマーリラ"
+    },
+    {
+      "slug": "kyoto-school",
+      "title": "Kyoto School",
+      "url": "https://plato.stanford.edu/entries/kyoto-school/",
+      "titleJa": "京都学派"
+    },
+    {
+      "slug": "la-forge",
+      "title": "La Forge, Louis de",
+      "url": "https://plato.stanford.edu/entries/la-forge/",
+      "titleJa": "ルイ・ド・ラ・フォルジュ"
+    },
+    {
+      "slug": "lacan",
+      "title": "Lacan, Jacques",
+      "url": "https://plato.stanford.edu/entries/lacan/",
+      "titleJa": "ジャック・ラカン"
+    },
+    {
+      "slug": "lakatos",
+      "title": "Lakatos, Imre",
+      "url": "https://plato.stanford.edu/entries/lakatos/",
+      "titleJa": "イムレ・ラカトシュ"
+    },
+    {
+      "slug": "landmann-kalischer",
+      "title": "Landmann-Kalischer, Edith",
+      "url": "https://plato.stanford.edu/entries/landmann-kalischer/",
+      "titleJa": "エディト・ラントマン＝カリッシャー"
+    },
+    {
+      "slug": "friedrich-lange",
+      "title": "Lange, Friedrich Albert",
+      "url": "https://plato.stanford.edu/entries/friedrich-lange/",
+      "titleJa": "フリードリヒ・アルベルト・ランゲ"
+    },
+    {
+      "slug": "laozi",
+      "title": "Laozi",
+      "url": "https://plato.stanford.edu/entries/laozi/",
+      "titleJa": "老子"
+    },
+    {
+      "slug": "latinx",
+      "title": "Latinx Philosophy",
+      "url": "https://plato.stanford.edu/entries/latinx/",
+      "titleJa": "ラテンクス哲学"
+    },
+    {
+      "slug": "legrand",
+      "title": "Le Grand, Antoine",
+      "url": "https://plato.stanford.edu/entries/legrand/",
+      "titleJa": "アントワーヌ・ル・グラン"
+    },
+    {
+      "slug": "lefevre-etaples",
+      "title": "Lefèvre d’Étaples, Jacques",
+      "url": "https://plato.stanford.edu/entries/lefevre-etaples/",
+      "titleJa": "ジャック・ルフェーヴル・デタープル"
+    },
+    {
+      "slug": "leibniz",
+      "title": "Leibniz, Gottfried Wilhelm",
+      "url": "https://plato.stanford.edu/entries/leibniz/",
+      "titleJa": "ゴットフリート・ヴィルヘルム・ライプニッツ"
+    },
+    {
+      "slug": "leibniz-modal",
+      "title": "Leibniz, Gottfried Wilhelm: modal metaphysics",
+      "url": "https://plato.stanford.edu/entries/leibniz-modal/",
+      "titleJa": "ライプニッツ：様相の形而上学"
+    },
+    {
+      "slug": "leibowitz-yeshayahu",
+      "title": "Leibowitz, Yeshayahu",
+      "url": "https://plato.stanford.edu/entries/leibowitz-yeshayahu/",
+      "titleJa": "イェシャヤフ・ライボヴィッツ"
+    },
+    {
+      "slug": "lesniewski",
+      "title": "Leśniewski, Stanisław",
+      "url": "https://plato.stanford.edu/entries/lesniewski/",
+      "titleJa": "スタニスワフ・レシニェフスキ"
+    },
+    {
+      "slug": "leucippus",
+      "title": "Leucippus",
+      "url": "https://plato.stanford.edu/entries/leucippus/",
+      "titleJa": "レウキッポス"
+    },
+    {
+      "slug": "levinas",
+      "title": "Levinas, Emmanuel",
+      "url": "https://plato.stanford.edu/entries/levinas/",
+      "titleJa": "エマニュエル・レヴィナス"
+    },
+    {
+      "slug": "lewis-ci",
+      "title": "Lewis, Clarence Irving",
+      "url": "https://plato.stanford.edu/entries/lewis-ci/",
+      "titleJa": "クラレンス・アーヴィング・ルイス"
+    },
+    {
+      "slug": "david-lewis",
+      "title": "Lewis, David",
+      "url": "https://plato.stanford.edu/entries/david-lewis/",
+      "titleJa": "デイヴィッド・ルイス"
+    },
+    {
+      "slug": "justus-lipsius",
+      "title": "Lipsius, Justus",
+      "url": "https://plato.stanford.edu/entries/justus-lipsius/",
+      "titleJa": "ユストゥス・リプシウス"
+    },
+    {
+      "slug": "llull",
+      "title": "Llull, Ramon",
+      "url": "https://plato.stanford.edu/entries/llull/",
+      "titleJa": "ラモン・リュイ"
+    },
+    {
+      "slug": "alain-locke",
+      "title": "Locke, Alain LeRoy",
+      "url": "https://plato.stanford.edu/entries/alain-locke/",
+      "titleJa": "アラン・ルロイ・ロック"
+    },
+    {
+      "slug": "locke",
+      "title": "Locke, John",
+      "url": "https://plato.stanford.edu/entries/locke/",
+      "titleJa": "ジョン・ロック"
+    },
+    {
+      "slug": "real-essence",
+      "title": "Locke, John: on real essence",
+      "url": "https://plato.stanford.edu/entries/real-essence/",
+      "titleJa": "ロック：実在的本質について"
+    },
+    {
+      "slug": "hermann-lotze",
+      "title": "Lotze, Hermann",
+      "url": "https://plato.stanford.edu/entries/hermann-lotze/",
+      "titleJa": "ヘルマン・ロッツェ"
+    },
+    {
+      "slug": "lucretius",
+      "title": "Lucretius",
+      "url": "https://plato.stanford.edu/entries/lucretius/",
+      "titleJa": "ルクレティウス"
+    },
+    {
+      "slug": "lukacs",
+      "title": "Lukács, Georg [György]",
+      "url": "https://plato.stanford.edu/entries/lukacs/",
+      "titleJa": "ゲオルク・ルカーチ"
+    },
+    {
+      "slug": "lukasiewicz",
+      "title": "Łukasiewicz, Jan",
+      "url": "https://plato.stanford.edu/entries/lukasiewicz/",
+      "titleJa": "ヤン・ウカシェヴィチ"
+    },
+    {
+      "slug": "luther",
+      "title": "Luther, Martin",
+      "url": "https://plato.stanford.edu/entries/luther/",
+      "titleJa": "マルティン・ルター"
+    },
+    {
+      "slug": "luxemburg",
+      "title": "Luxemburg, Rosa",
+      "url": "https://plato.stanford.edu/entries/luxemburg/",
+      "titleJa": "ローザ・ルクセンブルク"
+    },
+    {
+      "slug": "lvov-warsaw",
+      "title": "Lvov-Warsaw School",
+      "url": "https://plato.stanford.edu/entries/lvov-warsaw/",
+      "titleJa": "ルヴフ＝ワルシャワ学派"
+    },
+    {
+      "slug": "lyotard",
+      "title": "Lyotard, Jean François",
+      "url": "https://plato.stanford.edu/entries/lyotard/",
+      "titleJa": "ジャン＝フランソワ・リオタール"
+    },
+    {
+      "slug": "catharine-macaulay",
+      "title": "Macaulay, Catharine",
+      "url": "https://plato.stanford.edu/entries/catharine-macaulay/",
+      "titleJa": "キャサリン・マコーレー"
+    },
+    {
+      "slug": "ernst-mach",
+      "title": "Mach, Ernst",
+      "url": "https://plato.stanford.edu/entries/ernst-mach/",
+      "titleJa": "エルンスト・マッハ"
+    },
+    {
+      "slug": "machiavelli",
+      "title": "Machiavelli, Niccolò",
+      "url": "https://plato.stanford.edu/entries/machiavelli/",
+      "titleJa": "ニッコロ・マキャヴェッリ"
+    },
+    {
+      "slug": "madhyamaka",
+      "title": "Madhyamaka",
+      "url": "https://plato.stanford.edu/entries/madhyamaka/",
+      "titleJa": "中観派"
+    },
+    {
+      "slug": "maimon",
+      "title": "Maimon, Salomon",
+      "url": "https://plato.stanford.edu/entries/maimon/",
+      "titleJa": "サロモン・マイモン"
+    },
+    {
+      "slug": "maimonides",
+      "title": "Maimonides",
+      "url": "https://plato.stanford.edu/entries/maimonides/",
+      "titleJa": "マイモニデス"
+    },
+    {
+      "slug": "malebranche",
+      "title": "Malebranche, Nicolas",
+      "url": "https://plato.stanford.edu/entries/malebranche/",
+      "titleJa": "ニコラ・マルブランシュ"
+    },
+    {
+      "slug": "mally",
+      "title": "Mally, Ernst",
+      "url": "https://plato.stanford.edu/entries/mally/",
+      "titleJa": "エルンスト・マリー"
+    },
+    {
+      "slug": "mandeville",
+      "title": "Mandeville, Bernard",
+      "url": "https://plato.stanford.edu/entries/mandeville/",
+      "titleJa": "バーナード・マンデヴィル"
+    },
+    {
+      "slug": "marcel",
+      "title": "Marcel, Gabriel (-Honoré)",
+      "url": "https://plato.stanford.edu/entries/marcel/",
+      "titleJa": "ガブリエル・マルセル"
+    },
+    {
+      "slug": "marcus-aurelius",
+      "title": "Marcus Aurelius",
+      "url": "https://plato.stanford.edu/entries/marcus-aurelius/",
+      "titleJa": "マルクス・アウレリウス"
+    },
+    {
+      "slug": "ruth-barcan-marcus",
+      "title": "Marcus, Ruth Barcan",
+      "url": "https://plato.stanford.edu/entries/ruth-barcan-marcus/",
+      "titleJa": "ルース・バーカン・マーカス"
+    },
+    {
+      "slug": "marcuse",
+      "title": "Marcuse, Herbert",
+      "url": "https://plato.stanford.edu/entries/marcuse/",
+      "titleJa": "ヘルベルト・マルクーゼ"
+    },
+    {
+      "slug": "lucrezia-marinella",
+      "title": "Marinella, Lucrezia",
+      "url": "https://plato.stanford.edu/entries/lucrezia-marinella/",
+      "titleJa": "ルクレツィア・マリネッラ"
+    },
+    {
+      "slug": "maritain",
+      "title": "Maritain, Jacques",
+      "url": "https://plato.stanford.edu/entries/maritain/",
+      "titleJa": "ジャック・マリタン"
+    },
+    {
+      "slug": "marty",
+      "title": "Marty, Anton",
+      "url": "https://plato.stanford.edu/entries/marty/",
+      "titleJa": "アントン・マルティ"
+    },
+    {
+      "slug": "marx",
+      "title": "Marx, Karl",
+      "url": "https://plato.stanford.edu/entries/marx/",
+      "titleJa": "カール・マルクス"
+    },
+    {
+      "slug": "marxism-analytical",
+      "title": "Marxism, analytical",
+      "url": "https://plato.stanford.edu/entries/marxism-analytical/",
+      "titleJa": "分析的マルクス主義"
+    },
+    {
+      "slug": "lady-masham",
+      "title": "Masham, Lady Damaris",
+      "url": "https://plato.stanford.edu/entries/lady-masham/",
+      "titleJa": "ダマリス・マシャム夫人"
+    },
+    {
+      "slug": "mctaggart",
+      "title": "McTaggart, John M. E.",
+      "url": "https://plato.stanford.edu/entries/mctaggart/",
+      "titleJa": "ジョン・M・E・マクタガート"
+    },
+    {
+      "slug": "mead",
+      "title": "Mead, George Herbert",
+      "url": "https://plato.stanford.edu/entries/mead/",
+      "titleJa": "ジョージ・ハーバート・ミード"
+    },
+    {
+      "slug": "meinong",
+      "title": "Meinong, Alexius",
+      "url": "https://plato.stanford.edu/entries/meinong/",
+      "titleJa": "アレクシウス・マイノング"
+    },
+    {
+      "slug": "meister-eckhart",
+      "title": "Meister Eckhart",
+      "url": "https://plato.stanford.edu/entries/meister-eckhart/",
+      "titleJa": "マイスター・エックハルト"
+    },
+    {
+      "slug": "mencius",
+      "title": "Mencius",
+      "url": "https://plato.stanford.edu/entries/mencius/",
+      "titleJa": "孟子"
+    },
+    {
+      "slug": "mendelssohn",
+      "title": "Mendelssohn, Moses",
+      "url": "https://plato.stanford.edu/entries/mendelssohn/",
+      "titleJa": "モーゼス・メンデルスゾーン"
+    },
+    {
+      "slug": "merleau-ponty",
+      "title": "Merleau-Ponty, Maurice",
+      "url": "https://plato.stanford.edu/entries/merleau-ponty/",
+      "titleJa": "モーリス・メルロ＝ポンティ"
+    },
+    {
+      "slug": "mersenne",
+      "title": "Mersenne, Marin",
+      "url": "https://plato.stanford.edu/entries/mersenne/",
+      "titleJa": "マラン・メルセンヌ"
+    },
+    {
+      "slug": "harriet-mill",
+      "title": "Mill, Harriet Taylor",
+      "url": "https://plato.stanford.edu/entries/harriet-mill/",
+      "titleJa": "ハリエット・テイラー・ミル"
+    },
+    {
+      "slug": "james-mill",
+      "title": "Mill, James",
+      "url": "https://plato.stanford.edu/entries/james-mill/",
+      "titleJa": "ジェームズ・ミル"
+    },
+    {
+      "slug": "mill",
+      "title": "Mill, John Stuart",
+      "url": "https://plato.stanford.edu/entries/mill/",
+      "titleJa": "ジョン・スチュアート・ミル"
+    },
+    {
+      "slug": "montague-semantics",
+      "title": "Montague",
+      "url": "https://plato.stanford.edu/entries/montague-semantics/",
+      "titleJa": "モンテギュー意味論"
+    },
+    {
+      "slug": "montaigne",
+      "title": "Montaigne, Michel de",
+      "url": "https://plato.stanford.edu/entries/montaigne/",
+      "titleJa": "ミシェル・ド・モンテーニュ"
+    },
+    {
+      "slug": "montesquieu",
+      "title": "Montesquieu, Charles-Louis de Secondat, Baron de",
+      "url": "https://plato.stanford.edu/entries/montesquieu/",
+      "titleJa": "モンテスキュー"
+    },
+    {
+      "slug": "montessori-maria",
+      "title": "Montessori, Maria",
+      "url": "https://plato.stanford.edu/entries/montessori-maria/",
+      "titleJa": "マリア・モンテッソーリ"
+    },
+    {
+      "slug": "moore",
+      "title": "Moore, George Edward",
+      "url": "https://plato.stanford.edu/entries/moore/",
+      "titleJa": "ジョージ・エドワード・ムーア"
+    },
+    {
+      "slug": "henry-more",
+      "title": "More, Henry",
+      "url": "https://plato.stanford.edu/entries/henry-more/",
+      "titleJa": "ヘンリー・モア"
+    },
+    {
+      "slug": "thomas-more",
+      "title": "More, Thomas",
+      "url": "https://plato.stanford.edu/entries/thomas-more/",
+      "titleJa": "トマス・モア"
+    },
+    {
+      "slug": "mulla-sadra",
+      "title": "Mulla Sadra",
+      "url": "https://plato.stanford.edu/entries/mulla-sadra/",
+      "titleJa": "ムッラー・サドラー"
+    },
+    {
+      "slug": "murdoch",
+      "title": "Murdoch, Iris",
+      "url": "https://plato.stanford.edu/entries/murdoch/",
+      "titleJa": "アイリス・マードック"
+    },
+    {
+      "slug": "nagarjuna",
+      "title": "Nāgārjuna",
+      "url": "https://plato.stanford.edu/entries/nagarjuna/",
+      "titleJa": "ナーガールジュナ"
+    },
+    {
+      "slug": "natorp",
+      "title": "Natorp, Paul",
+      "url": "https://plato.stanford.edu/entries/natorp/",
+      "titleJa": "パウル・ナトルプ"
+    },
+    {
+      "slug": "negritude",
+      "title": "Négritude",
+      "url": "https://plato.stanford.edu/entries/negritude/",
+      "titleJa": "ネグリチュード"
+    },
+    {
+      "slug": "neo-daoism",
+      "title": "Neo-Daoism",
+      "url": "https://plato.stanford.edu/entries/neo-daoism/",
+      "titleJa": "新道家"
+    },
+    {
+      "slug": "neoplatonism",
+      "title": "Neoplatonism",
+      "url": "https://plato.stanford.edu/entries/neoplatonism/",
+      "titleJa": "新プラトン主義"
+    },
+    {
+      "slug": "neurath",
+      "title": "Neurath, Otto",
+      "url": "https://plato.stanford.edu/entries/neurath/",
+      "titleJa": "オットー・ノイラート"
+    },
+    {
+      "slug": "quine-nf",
+      "title": "New Foundations",
+      "url": "https://plato.stanford.edu/entries/quine-nf/",
+      "titleJa": "新基礎"
+    },
+    {
+      "slug": "newton",
+      "title": "Newton, Isaac",
+      "url": "https://plato.stanford.edu/entries/newton/",
+      "titleJa": "アイザック・ニュートン"
+    },
+    {
+      "slug": "autrecourt",
+      "title": "Nicholas of Autrecourt [de Altricuria, Autricuria, Ultricuria, Autricort]",
+      "url": "https://plato.stanford.edu/entries/autrecourt/",
+      "titleJa": "オートレクール（ニコラ）"
+    },
+    {
+      "slug": "nietzsche",
+      "title": "Nietzsche, Friedrich",
+      "url": "https://plato.stanford.edu/entries/nietzsche/",
+      "titleJa": "フリードリヒ・ニーチェ"
+    },
+    {
+      "slug": "nietzsche-aesthetics",
+      "title": "Nietzsche, Friedrich: aesthetics",
+      "url": "https://plato.stanford.edu/entries/nietzsche-aesthetics/",
+      "titleJa": "ニーチェの美学"
+    },
+    {
+      "slug": "nishida-kitaro",
+      "title": "Nishida Kitarō",
+      "url": "https://plato.stanford.edu/entries/nishida-kitaro/",
+      "titleJa": "西田幾多郎"
+    },
+    {
+      "slug": "john-norris",
+      "title": "Norris, John",
+      "url": "https://plato.stanford.edu/entries/john-norris/",
+      "titleJa": "ジョン・ノリス"
+    },
+    {
+      "slug": "numenius",
+      "title": "Numenius",
+      "url": "https://plato.stanford.edu/entries/numenius/",
+      "titleJa": "ヌメニウス"
+    },
+    {
+      "slug": "oakeshott",
+      "title": "Oakeshott, Michael",
+      "url": "https://plato.stanford.edu/entries/oakeshott/",
+      "titleJa": "マイケル・オークショット"
+    },
+    {
+      "slug": "ockham",
+      "title": "Ockham [Occam], William",
+      "url": "https://plato.stanford.edu/entries/ockham/",
+      "titleJa": "オッカム（ウィリアム）"
+    },
+    {
+      "slug": "olivi",
+      "title": "Olivi, Peter John",
+      "url": "https://plato.stanford.edu/entries/olivi/",
+      "titleJa": "ピーター・ジョン・オリヴィ"
+    },
+    {
+      "slug": "olympiodorus",
+      "title": "Olympiodorus",
+      "url": "https://plato.stanford.edu/entries/olympiodorus/",
+      "titleJa": "オリンピオドロス"
+    },
+    {
+      "slug": "nicole-oresme",
+      "title": "Oresme, Nicole",
+      "url": "https://plato.stanford.edu/entries/nicole-oresme/",
+      "titleJa": "ニコル・オレーム"
+    },
+    {
+      "slug": "origen",
+      "title": "Origen",
+      "url": "https://plato.stanford.edu/entries/origen/",
+      "titleJa": "オリゲネス"
+    },
+    {
+      "slug": "gasset",
+      "title": "Ortega y Gasset, José",
+      "url": "https://plato.stanford.edu/entries/gasset/",
+      "titleJa": "ホセ・オルテガ・イ・ガセット"
+    },
+    {
+      "slug": "paine",
+      "title": "Paine, Thomas",
+      "url": "https://plato.stanford.edu/entries/paine/",
+      "titleJa": "トマス・ペイン"
+    },
+    {
+      "slug": "parmenides",
+      "title": "Parmenides",
+      "url": "https://plato.stanford.edu/entries/parmenides/",
+      "titleJa": "パルメニデス"
+    },
+    {
+      "slug": "plato-parmenides",
+      "title": "Parmenides",
+      "url": "https://plato.stanford.edu/entries/plato-parmenides/",
+      "titleJa": "プラトン『パルメニデス』"
+    },
+    {
+      "slug": "pascal",
+      "title": "Pascal, Blaise",
+      "url": "https://plato.stanford.edu/entries/pascal/",
+      "titleJa": "ブレーズ・パスカル"
+    },
+    {
+      "slug": "patrizi",
+      "title": "Patrizi, Francesco",
+      "url": "https://plato.stanford.edu/entries/patrizi/",
+      "titleJa": "フランチェスコ・パトリツィ"
+    },
+    {
+      "slug": "peirce-benjamin",
+      "title": "Peirce, Benjamin",
+      "url": "https://plato.stanford.edu/entries/peirce-benjamin/",
+      "titleJa": "ベンジャミン・パース"
+    },
+    {
+      "slug": "peirce",
+      "title": "Peirce, Charles Sanders",
+      "url": "https://plato.stanford.edu/entries/peirce/",
+      "titleJa": "チャールズ・サンダース・パース"
+    },
+    {
+      "slug": "penbygull",
+      "title": "Penbygull, William",
+      "url": "https://plato.stanford.edu/entries/penbygull/",
+      "titleJa": "ウィリアム・ペンビガル"
+    },
+    {
+      "slug": "gomez-pereira",
+      "title": "Pereira, Gómez",
+      "url": "https://plato.stanford.edu/entries/gomez-pereira/",
+      "titleJa": "ゴメス・ペレイラ"
+    },
+    {
+      "slug": "joane-petrizi",
+      "title": "Petrizi, Joane",
+      "url": "https://plato.stanford.edu/entries/joane-petrizi/",
+      "titleJa": "ジョアン・ペトリツィ"
+    },
+    {
+      "slug": "philodemus",
+      "title": "Philodemus",
+      "url": "https://plato.stanford.edu/entries/philodemus/",
+      "titleJa": "フィロデモス"
+    },
+    {
+      "slug": "philolaus",
+      "title": "Philolaus",
+      "url": "https://plato.stanford.edu/entries/philolaus/",
+      "titleJa": "フィロラオス"
+    },
+    {
+      "slug": "philoponus",
+      "title": "Philoponus",
+      "url": "https://plato.stanford.edu/entries/philoponus/",
+      "titleJa": "フィロポノス"
+    },
+    {
+      "slug": "pico-della-mirandola",
+      "title": "Pico della Mirandola, Giovanni",
+      "url": "https://plato.stanford.edu/entries/pico-della-mirandola/",
+      "titleJa": "ジョヴァンニ・ピコ・デッラ・ミランドラ"
+    },
+    {
+      "slug": "gianfrancesco-pico",
+      "title": "Pico della Mirandola, Giovanni Francesco [Gianfrancesco]",
+      "url": "https://plato.stanford.edu/entries/gianfrancesco-pico/",
+      "titleJa": "ジョヴァンニ・フランチェスコ・ピコ"
+    },
+    {
+      "slug": "plato",
+      "title": "Plato",
+      "url": "https://plato.stanford.edu/entries/plato/",
+      "titleJa": "プラトン"
+    },
+    {
+      "slug": "plotinus",
+      "title": "Plotinus",
+      "url": "https://plato.stanford.edu/entries/plotinus/",
+      "titleJa": "プロティノス"
+    },
+    {
+      "slug": "plutarch",
+      "title": "Plutarch",
+      "url": "https://plato.stanford.edu/entries/plutarch/",
+      "titleJa": "プルタルコス"
+    },
+    {
+      "slug": "poincare",
+      "title": "Poincaré, Henri",
+      "url": "https://plato.stanford.edu/entries/poincare/",
+      "titleJa": "アンリ・ポアンカレ"
+    },
+    {
+      "slug": "polqar",
+      "title": "Polqar, Isaac",
+      "url": "https://plato.stanford.edu/entries/polqar/",
+      "titleJa": "イサク・ポルカル"
+    },
+    {
+      "slug": "pomponazzi",
+      "title": "Pomponazzi, Pietro",
+      "url": "https://plato.stanford.edu/entries/pomponazzi/",
+      "titleJa": "ピエトロ・ポンポナッツィ"
+    },
+    {
+      "slug": "popper",
+      "title": "Popper, Karl",
+      "url": "https://plato.stanford.edu/entries/popper/",
+      "titleJa": "カール・ポパー"
+    },
+    {
+      "slug": "porphyry",
+      "title": "Porphyry",
+      "url": "https://plato.stanford.edu/entries/porphyry/",
+      "titleJa": "ポルピュリオス"
+    },
+    {
+      "slug": "della-porta",
+      "title": "Porta, Giambattista della",
+      "url": "https://plato.stanford.edu/entries/della-porta/",
+      "titleJa": "ジャンバッティスタ・デッラ・ポルタ"
+    },
+    {
+      "slug": "francois-barre",
+      "title": "Poulain de la Barre, François",
+      "url": "https://plato.stanford.edu/entries/francois-barre/",
+      "titleJa": "フランソワ・プーラン・ド・ラ・バール"
+    },
+    {
+      "slug": "presocratics",
+      "title": "Presocratic Philosophy",
+      "url": "https://plato.stanford.edu/entries/presocratics/",
+      "titleJa": "ソクラテス以前の哲学"
+    },
+    {
+      "slug": "price",
+      "title": "Price, Henry Habberley",
+      "url": "https://plato.stanford.edu/entries/price/",
+      "titleJa": "ヘンリー・ハバーリー・プライス"
+    },
+    {
+      "slug": "richard-price",
+      "title": "Price, Richard",
+      "url": "https://plato.stanford.edu/entries/richard-price/",
+      "titleJa": "リチャード・プライス"
+    },
+    {
+      "slug": "prichard",
+      "title": "Prichard, Harold Arthur",
+      "url": "https://plato.stanford.edu/entries/prichard/",
+      "titleJa": "ハロルド・アーサー・プリチャード"
+    },
+    {
+      "slug": "principia-mathematica",
+      "title": "Principia Mathematica",
+      "url": "https://plato.stanford.edu/entries/principia-mathematica/",
+      "titleJa": "プリンキピア・マテマティカ"
+    },
+    {
+      "slug": "prior",
+      "title": "Prior, Arthur",
+      "url": "https://plato.stanford.edu/entries/prior/",
+      "titleJa": "アーサー・プライアー"
+    },
+    {
+      "slug": "proclus",
+      "title": "Proclus",
+      "url": "https://plato.stanford.edu/entries/proclus/",
+      "titleJa": "プロクロス"
+    },
+    {
+      "slug": "protagoras",
+      "title": "Protagoras",
+      "url": "https://plato.stanford.edu/entries/protagoras/",
+      "titleJa": "プロタゴラス"
+    },
+    {
+      "slug": "japanese-pure-land",
+      "title": "Pure Land",
+      "url": "https://plato.stanford.edu/entries/japanese-pure-land/",
+      "titleJa": "浄土"
+    },
+    {
+      "slug": "pyrrho",
+      "title": "Pyrrho",
+      "url": "https://plato.stanford.edu/entries/pyrrho/",
+      "titleJa": "ピュロン"
+    },
+    {
+      "slug": "pythagoras",
+      "title": "Pythagoras",
+      "url": "https://plato.stanford.edu/entries/pythagoras/",
+      "titleJa": "ピタゴラス"
+    },
+    {
+      "slug": "pythagoreanism",
+      "title": "Pythagoreanism",
+      "url": "https://plato.stanford.edu/entries/pythagoreanism/",
+      "titleJa": "ピタゴラス主義"
+    },
+    {
+      "slug": "quine",
+      "title": "Quine, Willard Van Orman",
+      "url": "https://plato.stanford.edu/entries/quine/",
+      "titleJa": "クワイン, ウィラード・ヴァン・オーマン"
+    },
+    {
+      "slug": "radulphus-brito",
+      "title": "Radulphus Brito",
+      "url": "https://plato.stanford.edu/entries/radulphus-brito/",
+      "titleJa": "ラドゥルフス・ブリトー"
+    },
+    {
+      "slug": "ramsey",
+      "title": "Ramsey, Frank",
+      "url": "https://plato.stanford.edu/entries/ramsey/",
+      "titleJa": "ラムジー, フランク"
+    },
+    {
+      "slug": "ramus",
+      "title": "Ramus, Petrus",
+      "url": "https://plato.stanford.edu/entries/ramus/",
+      "titleJa": "ラムス, ペトルス"
+    },
+    {
+      "slug": "ayn-rand",
+      "title": "Rand, Ayn",
+      "url": "https://plato.stanford.edu/entries/ayn-rand/",
+      "titleJa": "ランド, アイン"
+    },
+    {
+      "slug": "rawls",
+      "title": "Rawls, John",
+      "url": "https://plato.stanford.edu/entries/rawls/",
+      "titleJa": "ロールズ, ジョン"
+    },
+    {
+      "slug": "henricus-regius",
+      "title": "Regius, Henricus",
+      "url": "https://plato.stanford.edu/entries/henricus-regius/",
+      "titleJa": "レギウス, ヘンリクス"
+    },
+    {
+      "slug": "bradley-regress",
+      "title": "Regress",
+      "url": "https://plato.stanford.edu/entries/bradley-regress/",
+      "titleJa": "ブラッドリーの無限後退"
+    },
+    {
+      "slug": "august-rehberg",
+      "title": "Rehberg, August Wilhelm",
+      "url": "https://plato.stanford.edu/entries/august-rehberg/",
+      "titleJa": "レーベルク, アウグスト・ヴィルヘルム"
+    },
+    {
+      "slug": "reichenbach",
+      "title": "Reichenbach, Hans",
+      "url": "https://plato.stanford.edu/entries/reichenbach/",
+      "titleJa": "ライヘンバッハ, ハンス"
+    },
+    {
+      "slug": "physics-Rpcc",
+      "title": "Reichenbach, Hans: common cause principle",
+      "url": "https://plato.stanford.edu/entries/physics-Rpcc/",
+      "titleJa": "ライヘンバッハ: 共通原因の原理"
+    },
+    {
+      "slug": "reid",
+      "title": "Reid, Thomas",
+      "url": "https://plato.stanford.edu/entries/reid/",
+      "titleJa": "リード, トマス"
+    },
+    {
+      "slug": "reinach",
+      "title": "Reinach, Adolf",
+      "url": "https://plato.stanford.edu/entries/reinach/",
+      "titleJa": "ライナッハ, アドルフ"
+    },
+    {
+      "slug": "karl-reinhold",
+      "title": "Reinhold, Karl Leonhard",
+      "url": "https://plato.stanford.edu/entries/karl-reinhold/",
+      "titleJa": "ラインホルト, カール・レオンハルト"
+    },
+    {
+      "slug": "richard-sophister",
+      "title": "Richard the Sophister [Ricardus Sophista, Magister abstractionum]",
+      "url": "https://plato.stanford.edu/entries/richard-sophister/",
+      "titleJa": "ソフィスターのリチャード"
+    },
+    {
+      "slug": "heinrich-rickert",
+      "title": "Rickert, Heinrich",
+      "url": "https://plato.stanford.edu/entries/heinrich-rickert/",
+      "titleJa": "リッカート, ハインリヒ"
+    },
+    {
+      "slug": "ricoeur",
+      "title": "Ricoeur, Paul",
+      "url": "https://plato.stanford.edu/entries/ricoeur/",
+      "titleJa": "リクール, ポール"
+    },
+    {
+      "slug": "rorty",
+      "title": "Rorty, Richard",
+      "url": "https://plato.stanford.edu/entries/rorty/",
+      "titleJa": "ローティ, リチャード"
+    },
+    {
+      "slug": "rosenstock-huessy",
+      "title": "Rosenstock-Huessy, Eugen",
+      "url": "https://plato.stanford.edu/entries/rosenstock-huessy/",
+      "titleJa": "ローゼンシュトック＝フュッシィ, オイゲン"
+    },
+    {
+      "slug": "rosenzweig",
+      "title": "Rosenzweig, Franz",
+      "url": "https://plato.stanford.edu/entries/rosenzweig/",
+      "titleJa": "ローゼンツヴァイク, フランツ"
+    },
+    {
+      "slug": "antonio-rosmini",
+      "title": "Rosmini, Antonio",
+      "url": "https://plato.stanford.edu/entries/antonio-rosmini/",
+      "titleJa": "ロスミニ, アントニオ"
+    },
+    {
+      "slug": "william-david-ross",
+      "title": "Ross, William David",
+      "url": "https://plato.stanford.edu/entries/william-david-ross/",
+      "titleJa": "ロス, ウィリアム・デイヴィッド"
+    },
+    {
+      "slug": "rousseau",
+      "title": "Rousseau, Jean Jacques",
+      "url": "https://plato.stanford.edu/entries/rousseau/",
+      "titleJa": "ルソー, ジャン＝ジャック"
+    },
+    {
+      "slug": "royce",
+      "title": "Royce, Josiah",
+      "url": "https://plato.stanford.edu/entries/royce/",
+      "titleJa": "ロイス, ジョサイア"
+    },
+    {
+      "slug": "russell",
+      "title": "Russell, Bertrand",
+      "url": "https://plato.stanford.edu/entries/russell/",
+      "titleJa": "ラッセル, バートランド"
+    },
+    {
+      "slug": "russellian-monism",
+      "title": "Russellian",
+      "url": "https://plato.stanford.edu/entries/russellian-monism/",
+      "titleJa": "ラッセル流一元論"
+    },
+    {
+      "slug": "ryle",
+      "title": "Ryle, Gilbert",
+      "url": "https://plato.stanford.edu/entries/ryle/",
+      "titleJa": "ライル, ギルバート"
+    },
+    {
+      "slug": "wesley-salmon",
+      "title": "Salmon, Wesley",
+      "url": "https://plato.stanford.edu/entries/wesley-salmon/",
+      "titleJa": "サーモン, ウェスリー"
+    },
+    {
+      "slug": "francisco-sanches",
+      "title": "Sanches, Francisco",
+      "url": "https://plato.stanford.edu/entries/francisco-sanches/",
+      "titleJa": "サンチェス, フランシスコ"
+    },
+    {
+      "slug": "shankara",
+      "title": "Śaṅkara",
+      "url": "https://plato.stanford.edu/entries/shankara/",
+      "titleJa": "シャンカラ"
+    },
+    {
+      "slug": "saantarak-sita",
+      "title": "Śāntarakṣita",
+      "url": "https://plato.stanford.edu/entries/saantarak-sita/",
+      "titleJa": "シャーンタラクシタ"
+    },
+    {
+      "slug": "santayana",
+      "title": "Santayana, George",
+      "url": "https://plato.stanford.edu/entries/santayana/",
+      "titleJa": "サンタヤーナ, ジョージ"
+    },
+    {
+      "slug": "shantideva",
+      "title": "Śāntideva",
+      "url": "https://plato.stanford.edu/entries/shantideva/",
+      "titleJa": "シャーンティデーヴァ"
+    },
+    {
+      "slug": "sartre",
+      "title": "Sartre, Jean-Paul",
+      "url": "https://plato.stanford.edu/entries/sartre/",
+      "titleJa": "サルトル, ジャン＝ポール"
+    },
+    {
+      "slug": "scheler",
+      "title": "Scheler, Max",
+      "url": "https://plato.stanford.edu/entries/scheler/",
+      "titleJa": "シェーラー, マックス"
+    },
+    {
+      "slug": "schelling",
+      "title": "Schelling, Friedrich Wilhelm Joseph von",
+      "url": "https://plato.stanford.edu/entries/schelling/",
+      "titleJa": "シェリング, フリードリヒ・ヴィルヘルム・ヨーゼフ・フォン"
+    },
+    {
+      "slug": "schiller",
+      "title": "Schiller, Friedrich",
+      "url": "https://plato.stanford.edu/entries/schiller/",
+      "titleJa": "シラー, フリードリヒ"
+    },
+    {
+      "slug": "schlegel-aw",
+      "title": "Schlegel, August Wilhelm von",
+      "url": "https://plato.stanford.edu/entries/schlegel-aw/",
+      "titleJa": "シュレーゲル, アウグスト・ヴィルヘルム・フォン"
+    },
+    {
+      "slug": "schlegel",
+      "title": "Schlegel, Friedrich",
+      "url": "https://plato.stanford.edu/entries/schlegel/",
+      "titleJa": "シュレーゲル, フリードリヒ"
+    },
+    {
+      "slug": "schleiermacher",
+      "title": "Schleiermacher, Friedrich Daniel Ernst",
+      "url": "https://plato.stanford.edu/entries/schleiermacher/",
+      "titleJa": "シュライエルマッハー"
+    },
+    {
+      "slug": "schlick",
+      "title": "Schlick, Moritz",
+      "url": "https://plato.stanford.edu/entries/schlick/",
+      "titleJa": "シュリック"
+    },
+    {
+      "slug": "schmitt",
+      "title": "Schmitt, Carl",
+      "url": "https://plato.stanford.edu/entries/schmitt/",
+      "titleJa": "シュミット"
+    },
+    {
+      "slug": "scholem",
+      "title": "Scholem, Gershom",
+      "url": "https://plato.stanford.edu/entries/scholem/",
+      "titleJa": "ショーレム"
+    },
+    {
+      "slug": "scholz",
+      "title": "Scholz, Heinrich",
+      "url": "https://plato.stanford.edu/entries/scholz/",
+      "titleJa": "ショルツ"
+    },
+    {
+      "slug": "schopenhauer",
+      "title": "Schopenhauer, Arthur",
+      "url": "https://plato.stanford.edu/entries/schopenhauer/",
+      "titleJa": "ショーペンハウアー"
+    },
+    {
+      "slug": "schopenhauer-aesthetics",
+      "title": "Schopenhauer, Arthur: aesthetics",
+      "url": "https://plato.stanford.edu/entries/schopenhauer-aesthetics/",
+      "titleJa": "ショーペンハウアーの美学"
+    },
+    {
+      "slug": "schutz",
+      "title": "Schutz, Alfred",
+      "url": "https://plato.stanford.edu/entries/schutz/",
+      "titleJa": "シュッツ"
+    },
+    {
+      "slug": "madeleine-scudery",
+      "title": "Scudéry, Madeleine de",
+      "url": "https://plato.stanford.edu/entries/madeleine-scudery/",
+      "titleJa": "スキュデリー"
+    },
+    {
+      "slug": "sellars",
+      "title": "Sellars, Wilfrid",
+      "url": "https://plato.stanford.edu/entries/sellars/",
+      "titleJa": "セルラーズ"
+    },
+    {
+      "slug": "seneca",
+      "title": "Seneca",
+      "url": "https://plato.stanford.edu/entries/seneca/",
+      "titleJa": "セネカ"
+    },
+    {
+      "slug": "sextus-empiricus",
+      "title": "Sextus Empiricus",
+      "url": "https://plato.stanford.edu/entries/sextus-empiricus/",
+      "titleJa": "セクストゥス・エンピリクス"
+    },
+    {
+      "slug": "shaftesbury",
+      "title": "Shaftesbury, Lord [Anthony Ashley Cooper, 3rd Earl of]",
+      "url": "https://plato.stanford.edu/entries/shaftesbury/",
+      "titleJa": "シャフツベリー"
+    },
+    {
+      "slug": "sharpe",
+      "title": "Sharpe, Johannes",
+      "url": "https://plato.stanford.edu/entries/sharpe/",
+      "titleJa": "シャープ"
+    },
+    {
+      "slug": "mary-shepherd",
+      "title": "Shepherd, Mary",
+      "url": "https://plato.stanford.edu/entries/mary-shepherd/",
+      "titleJa": "シェパード"
+    },
+    {
+      "slug": "sidgwick",
+      "title": "Sidgwick, Henry",
+      "url": "https://plato.stanford.edu/entries/sidgwick/",
+      "titleJa": "シジウィック"
+    },
+    {
+      "slug": "simplicius",
+      "title": "Simplicius",
+      "url": "https://plato.stanford.edu/entries/simplicius/",
+      "titleJa": "シンプリキオス"
+    },
+    {
+      "slug": "socrates",
+      "title": "Socrates",
+      "url": "https://plato.stanford.edu/entries/socrates/",
+      "titleJa": "ソクラテス"
+    },
+    {
+      "slug": "sophists",
+      "title": "Sophists, The",
+      "url": "https://plato.stanford.edu/entries/sophists/",
+      "titleJa": "ソフィスト"
+    },
+    {
+      "slug": "spencer",
+      "title": "Spencer, Herbert",
+      "url": "https://plato.stanford.edu/entries/spencer/",
+      "titleJa": "スペンサー"
+    },
+    {
+      "slug": "speusippus",
+      "title": "Speusippus",
+      "url": "https://plato.stanford.edu/entries/speusippus/",
+      "titleJa": "スペウシッポス"
+    },
+    {
+      "slug": "spinoza",
+      "title": "Spinoza, Baruch",
+      "url": "https://plato.stanford.edu/entries/spinoza/",
+      "titleJa": "スピノザ"
+    },
+    {
+      "slug": "spinoza-modal",
+      "title": "Spinoza, Baruch: modal metaphysics",
+      "url": "https://plato.stanford.edu/entries/spinoza-modal/",
+      "titleJa": "スピノザの様相形而上学"
+    },
+    {
+      "slug": "sriharsa",
+      "title": "Śrīharṣa",
+      "url": "https://plato.stanford.edu/entries/sriharsa/",
+      "titleJa": "シュリーハルシャ"
+    },
+    {
+      "slug": "stebbing",
+      "title": "Stebbing, Susan",
+      "url": "https://plato.stanford.edu/entries/stebbing/",
+      "titleJa": "ステビング"
+    },
+    {
+      "slug": "stein",
+      "title": "Stein, Edith",
+      "url": "https://plato.stanford.edu/entries/stein/",
+      "titleJa": "シュタイン"
+    },
+    {
+      "slug": "stevenson",
+      "title": "Stevenson, Charles Leslie",
+      "url": "https://plato.stanford.edu/entries/stevenson/",
+      "titleJa": "スティーブンソン"
+    },
+    {
+      "slug": "max-stirner",
+      "title": "Stirner, Max",
+      "url": "https://plato.stanford.edu/entries/max-stirner/",
+      "titleJa": "シュティルナー"
+    },
+    {
+      "slug": "stoicism",
+      "title": "Stoicism",
+      "url": "https://plato.stanford.edu/entries/stoicism/",
+      "titleJa": "ストア主義"
+    },
+    {
+      "slug": "strauss-leo",
+      "title": "Strauss, Leo",
+      "url": "https://plato.stanford.edu/entries/strauss-leo/",
+      "titleJa": "シュトラウス"
+    },
+    {
+      "slug": "strawson",
+      "title": "Strawson, Peter Frederick",
+      "url": "https://plato.stanford.edu/entries/strawson/",
+      "titleJa": "ストローソン"
+    },
+    {
+      "slug": "stumpf",
+      "title": "Stumpf, Carl",
+      "url": "https://plato.stanford.edu/entries/stumpf/",
+      "titleJa": "シュトゥンプ"
+    },
+    {
+      "slug": "johann-sturm",
+      "title": "Sturm, Johann",
+      "url": "https://plato.stanford.edu/entries/johann-sturm/",
+      "titleJa": "シュトゥルム"
+    },
+    {
+      "slug": "suarez",
+      "title": "Suárez, Francisco",
+      "url": "https://plato.stanford.edu/entries/suarez/",
+      "titleJa": "スアレス"
+    },
+    {
+      "slug": "suhrawardi",
+      "title": "Suhrawardi",
+      "url": "https://plato.stanford.edu/entries/suhrawardi/",
+      "titleJa": "スフラワルディー"
+    },
+    {
+      "slug": "susman-margarete",
+      "title": "Susman, Margarete",
+      "url": "https://plato.stanford.edu/entries/susman-margarete/",
+      "titleJa": "ズースマン"
+    },
+    {
+      "slug": "sylvan-routley",
+      "title": "Sylvan [Routley], Richard",
+      "url": "https://plato.stanford.edu/entries/sylvan-routley/",
+      "titleJa": "シルヴァン"
+    },
+    {
+      "slug": "syrianus",
+      "title": "Syrianus",
+      "url": "https://plato.stanford.edu/entries/syrianus/",
+      "titleJa": "シリアノス"
+    },
+    {
+      "slug": "tarski",
+      "title": "Tarski, Alfred",
+      "url": "https://plato.stanford.edu/entries/tarski/",
+      "titleJa": "タルスキ"
+    },
+    {
+      "slug": "tarski-truth",
+      "title": "Tarski, Alfred: truth definitions",
+      "url": "https://plato.stanford.edu/entries/tarski-truth/",
+      "titleJa": "タルスキの真理定義"
+    },
+    {
+      "slug": "taurellus",
+      "title": "Taurellus, Nicolaus",
+      "url": "https://plato.stanford.edu/entries/taurellus/",
+      "titleJa": "ニコラウス・タウレルス"
+    },
+    {
+      "slug": "telesio",
+      "title": "Telesio, Bernardino",
+      "url": "https://plato.stanford.edu/entries/telesio/",
+      "titleJa": "ベルナルディーノ・テレジオ"
+    },
+    {
+      "slug": "theophrastus",
+      "title": "Theophrastus",
+      "url": "https://plato.stanford.edu/entries/theophrastus/",
+      "titleJa": "テオプラストス"
+    },
+    {
+      "slug": "thoreau",
+      "title": "Thoreau, Henry David",
+      "url": "https://plato.stanford.edu/entries/thoreau/",
+      "titleJa": "ヘンリー・デイヴィッド・ソロー"
+    },
+    {
+      "slug": "tibbon",
+      "title": "Tibbon, Samuel Ibn",
+      "url": "https://plato.stanford.edu/entries/tibbon/",
+      "titleJa": "サミュエル・イブン・ティボン"
+    },
+    {
+      "slug": "plato-timaeus",
+      "title": "Timaeus",
+      "url": "https://plato.stanford.edu/entries/plato-timaeus/",
+      "titleJa": "ティマイオス"
+    },
+    {
+      "slug": "tsongkhapa",
+      "title": "Tsongkhapa",
+      "url": "https://plato.stanford.edu/entries/tsongkhapa/",
+      "titleJa": "ツォンカパ"
+    },
+    {
+      "slug": "turing",
+      "title": "Turing, Alan",
+      "url": "https://plato.stanford.edu/entries/turing/",
+      "titleJa": "アラン・チューリング"
+    },
+    {
+      "slug": "twardowski",
+      "title": "Twardowski, Kazimierz",
+      "url": "https://plato.stanford.edu/entries/twardowski/",
+      "titleJa": "カジミェシュ・トヴァルドフスキ"
+    },
+    {
+      "slug": "umar-khayyam",
+      "title": "Umar Khayyam",
+      "url": "https://plato.stanford.edu/entries/umar-khayyam/",
+      "titleJa": "ウマル・ハイヤーム"
+    },
+    {
+      "slug": "qt-uncertainty",
+      "title": "Uncertainty Principle",
+      "url": "https://plato.stanford.edu/entries/qt-uncertainty/",
+      "titleJa": "不確定性原理"
+    },
+    {
+      "slug": "vaihinger",
+      "title": "Vaihinger, Hans",
+      "url": "https://plato.stanford.edu/entries/vaihinger/",
+      "titleJa": "ハンス・ヴァイヒンガー"
+    },
+    {
+      "slug": "lorenzo-valla",
+      "title": "Valla, Lorenzo",
+      "url": "https://plato.stanford.edu/entries/lorenzo-valla/",
+      "titleJa": "ロレンツォ・ヴァッラ"
+    },
+    {
+      "slug": "vasubandhu",
+      "title": "Vasubandhu",
+      "url": "https://plato.stanford.edu/entries/vasubandhu/",
+      "titleJa": "ヴァスバンドゥ（世親）"
+    },
+    {
+      "slug": "vico",
+      "title": "Vico, Giambattista",
+      "url": "https://plato.stanford.edu/entries/vico/",
+      "titleJa": "ジャンバッティスタ・ヴィーコ"
+    },
+    {
+      "slug": "vienna-circle",
+      "title": "Vienna Circle",
+      "url": "https://plato.stanford.edu/entries/vienna-circle/",
+      "titleJa": "ウィーン学団"
+    },
+    {
+      "slug": "vives",
+      "title": "Vives, Juan Luis",
+      "url": "https://plato.stanford.edu/entries/vives/",
+      "titleJa": "フアン・ルイス・ビーベス"
+    },
+    {
+      "slug": "voltaire",
+      "title": "Voltaire",
+      "url": "https://plato.stanford.edu/entries/voltaire/",
+      "titleJa": "ヴォルテール"
+    },
+    {
+      "slug": "wang-yangming",
+      "title": "Wang Yangming",
+      "url": "https://plato.stanford.edu/entries/wang-yangming/",
+      "titleJa": "王陽明"
+    },
+    {
+      "slug": "james-ward",
+      "title": "Ward, James",
+      "url": "https://plato.stanford.edu/entries/james-ward/",
+      "titleJa": "ジェームズ・ウォード"
+    },
+    {
+      "slug": "watsuji-tetsuro",
+      "title": "Watsuji Tetsurō",
+      "url": "https://plato.stanford.edu/entries/watsuji-tetsuro/",
+      "titleJa": "和辻哲郎"
+    },
+    {
+      "slug": "weber",
+      "title": "Weber, Max",
+      "url": "https://plato.stanford.edu/entries/weber/",
+      "titleJa": "マックス・ヴェーバー"
+    },
+    {
+      "slug": "simone-weil",
+      "title": "Weil, Simone",
+      "url": "https://plato.stanford.edu/entries/simone-weil/",
+      "titleJa": "シモーヌ・ヴェイユ"
+    },
+    {
+      "slug": "weyl",
+      "title": "Weyl, Hermann",
+      "url": "https://plato.stanford.edu/entries/weyl/",
+      "titleJa": "ヘルマン・ワイル"
+    },
+    {
+      "slug": "whewell",
+      "title": "Whewell, William",
+      "url": "https://plato.stanford.edu/entries/whewell/",
+      "titleJa": "ウィリアム・ヒューエル"
+    },
+    {
+      "slug": "whitehead",
+      "title": "Whitehead, Alfred North",
+      "url": "https://plato.stanford.edu/entries/whitehead/",
+      "titleJa": "アルフレッド・ノース・ホワイトヘッド"
+    },
+    {
+      "slug": "williams-bernard",
+      "title": "Williams, Bernard",
+      "url": "https://plato.stanford.edu/entries/williams-bernard/",
+      "titleJa": "バーナード・ウィリアムズ"
+    },
+    {
+      "slug": "williams-dc",
+      "title": "Williams, Donald Cary",
+      "url": "https://plato.stanford.edu/entries/williams-dc/",
+      "titleJa": "ドナルド・ケアリー・ウィリアムズ"
+    },
+    {
+      "slug": "wilson",
+      "title": "Wilson, John Cook",
+      "url": "https://plato.stanford.edu/entries/wilson/",
+      "titleJa": "ジョン・クック・ウィルソン"
+    },
+    {
+      "slug": "wilhelm-windelband",
+      "title": "Windelband, Wilhelm",
+      "url": "https://plato.stanford.edu/entries/wilhelm-windelband/",
+      "titleJa": "ヴィルヘルム・ヴィンデルバント"
+    },
+    {
+      "slug": "wittgenstein",
+      "title": "Wittgenstein, Ludwig",
+      "url": "https://plato.stanford.edu/entries/wittgenstein/",
+      "titleJa": "ルートヴィヒ・ヴィトゲンシュタイン"
+    },
+    {
+      "slug": "wittgenstein-aesthetics",
+      "title": "Wittgenstein, Ludwig: aesthetics",
+      "url": "https://plato.stanford.edu/entries/wittgenstein-aesthetics/",
+      "titleJa": "ヴィトゲンシュタイン：美学"
+    },
+    {
+      "slug": "wittgenstein-atomism",
+      "title": "Wittgenstein, Ludwig: logical atomism",
+      "url": "https://plato.stanford.edu/entries/wittgenstein-atomism/",
+      "titleJa": "ヴィトゲンシュタイン：論理的原子論"
+    },
+    {
+      "slug": "wodeham",
+      "title": "Wodeham, Adam de",
+      "url": "https://plato.stanford.edu/entries/wodeham/",
+      "titleJa": "アダム・ド・ウォーダム"
+    },
+    {
+      "slug": "wolff-christian",
+      "title": "Wolff, Christian",
+      "url": "https://plato.stanford.edu/entries/wolff-christian/",
+      "titleJa": "クリスチャン・ヴォルフ"
+    },
+    {
+      "slug": "wollstonecraft",
+      "title": "Wollstonecraft, Mary",
+      "url": "https://plato.stanford.edu/entries/wollstonecraft/",
+      "titleJa": "メアリ・ウルストンクラフト"
+    },
+    {
+      "slug": "wright",
+      "title": "Wright, Chauncey",
+      "url": "https://plato.stanford.edu/entries/wright/",
+      "titleJa": "チョーンシー・ライト"
+    },
+    {
+      "slug": "wilhelm-wundt",
+      "title": "Wundt, Wilhelm Maximilian",
+      "url": "https://plato.stanford.edu/entries/wilhelm-wundt/",
+      "titleJa": "ヴィルヘルム・マクシミリアン・ヴント"
+    },
+    {
+      "slug": "wyclif",
+      "title": "Wyclif, John",
+      "url": "https://plato.stanford.edu/entries/wyclif/",
+      "titleJa": "ジョン・ウィクリフ"
+    },
+    {
+      "slug": "xenocrates",
+      "title": "Xenocrates",
+      "url": "https://plato.stanford.edu/entries/xenocrates/",
+      "titleJa": "クセノクラテス"
+    },
+    {
+      "slug": "xenophanes",
+      "title": "Xenophanes",
+      "url": "https://plato.stanford.edu/entries/xenophanes/",
+      "titleJa": "クセノパネス"
+    },
+    {
+      "slug": "xunzi",
+      "title": "Xunzi",
+      "url": "https://plato.stanford.edu/entries/xunzi/",
+      "titleJa": "荀子"
+    },
+    {
+      "slug": "yogacara",
+      "title": "Yogācāra",
+      "url": "https://plato.stanford.edu/entries/yogacara/",
+      "titleJa": "唯識"
+    },
+    {
+      "slug": "yorck",
+      "title": "Yorck von Wartenburg, Count Paul",
+      "url": "https://plato.stanford.edu/entries/yorck/",
+      "titleJa": "ヨルク・フォン・ヴァルテンブルク"
+    },
+    {
+      "slug": "zabarella",
+      "title": "Zabarella, Giacomo",
+      "url": "https://plato.stanford.edu/entries/zabarella/",
+      "titleJa": "ザバレラ"
+    },
+    {
+      "slug": "zhu-xi",
+      "title": "Zhu Xi",
+      "url": "https://plato.stanford.edu/entries/zhu-xi/",
+      "titleJa": "朱熹"
+    },
+    {
+      "slug": "zhuangzi",
+      "title": "Zhuangzi",
+      "url": "https://plato.stanford.edu/entries/zhuangzi/",
+      "titleJa": "荘子"
+    }
+  ],
+  "disclaimer": "Heuristic filter: not a perfect partition of “philosophers” vs. other SEP entries. Edit data/sep-philosopher-overrides.json and re-run this script to fix false positives/negatives."
+}

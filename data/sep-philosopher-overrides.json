@@ -1,0 +1,5 @@
+{
+  "include": [],
+  "exclude": [],
+  "notes": "Add slugs to include (false negatives) or exclude (false positives). Re-run pnpm run generate:sep-philosophers after edits."
+}
